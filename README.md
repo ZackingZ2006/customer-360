@@ -1,51 +1,73 @@
-# Customer 360 — Phân tích khách hàng bán lẻ thiết bị điện tử
+# Customer 360 — retail customer analytics (SQL · Python · Power BI)
 
-Phân tích dữ liệu giả lập năm 2025 của một chuỗi bán lẻ, nhằm tìm nhóm khách hàng có giá trị, theo dõi mua lại và xác định ưu tiên chăm sóc. Dự án kết hợp SQL Server, Python và Power BI.
+Analysis of one year (2025) of **synthetic** data for an electronics retail chain. Goal: find high-value customers, track repurchase, and decide who to contact first.
 
-**Quy mô:** 600 hồ sơ khách hàng · 575 khách có đơn hoàn tất · 2.998 đơn hoàn tất · 53,36 tỷ đồng doanh thu.
+**Scale:** 600 customers · 575 buyers · 2,998 completed orders · 53.36 bn VND revenue · 8 source tables.
 
-## Dashboard Power BI
+🇻🇳 Báo cáo và dashboard đều bằng tiếng Việt.
 
-![Tổng quan kinh doanh](dashboard/01-overview.png)
+![Business overview](dashboard/01-overview.png)
 
-[Khách hàng & hành động](dashboard/02-customers.png) · [Bán hàng & hiệu quả](dashboard/03-sales.png) · [Cohort & mua lại](dashboard/04-cohort.png) · [Dịch vụ](dashboard/05-service.png)
+More pages: [Customers & actions](dashboard/02-customers.png) · [Sales & performance](dashboard/03-sales.png) · [Cohort & repurchase](dashboard/04-cohort.png) · [Service](dashboard/05-service.png)
 
-Tải [Customer360_Final.pbix](dashboard/Customer360_Final.pbix) và mở bằng Power BI Desktop để tương tác. Báo cáo có 5 trang, bộ lọc và điều hướng giữa các trang.
+## Findings
 
-## Kết quả chính và hành động đề xuất
-
-| Phát hiện | Hành động |
+| Finding | Suggested action |
 |---|---|
-| 109 khách Champion (18,2% hồ sơ) tạo 50,0% doanh thu. | Ưu tiên chăm sóc và giữ chân nhóm giá trị cao. |
-| 66 khách giá trị cao có nguy cơ rời bỏ đã không mua quá 90 ngày; nhóm này tạo 9,82 tỷ đồng doanh thu lịch sử. | Thử nghiệm chăm sóc giữ chân, đo phản hồi và so sánh với nhóm đối chứng. |
-| Retention M1 có trọng số là 41,88% (232/554 khách thuộc cohort tháng 1–11). | Theo dõi mua lại sau tháng đầu, phân tích theo cohort và cỡ mẫu. |
-| 13 yêu cầu dịch vụ đang mở liên quan 12 khách; CSAT nhóm Open là 1,77/5. | Ưu tiên xử lý yêu cầu đang mở trước khi gửi marketing. |
-| Smartphone và TV & Display là hai danh mục dưới biên lợi nhuận mục tiêu. | Kiểm tra giá bán, cơ cấu sản phẩm và chương trình bán kèm. |
+| 109 Champion customers (18.2%) bring in 50.0% of revenue. | Prioritise retention and care for this group. |
+| 66 high-value customers have not bought in more than 90 days. They account for 9.82 bn VND of past revenue. | Run a retention pilot with a control group. |
+| Weighted M1 retention is 41.9% (232/554 customers, January–November cohorts). | Track repurchase after month 1 by cohort. |
+| 13 service requests are still open (12 customers). CSAT for open requests is 1.77/5, against 4.03/5 overall. | Resolve open requests before sending marketing. |
+| Smartphone and TV & Display are below their target margin. | Review pricing, product mix and bundles. |
 
-Doanh thu lịch sử của nhóm At Risk không phải doanh thu chắc chắn sẽ mất. CSAT toàn bộ 231 yêu cầu hợp lệ là 4,03/5; chỉ số 1,77/5 dùng riêng cho yêu cầu đang mở.
+The past revenue of at-risk customers is not revenue that will certainly be lost.
 
-## Phương pháp
+## How it was built
 
-1. Kiểm tra khóa, trạng thái đơn hàng và ngoại lệ dữ liệu trong 8 bảng nguồn.
-2. Dùng [SQL Server](customer360.sql) để tổng hợp đơn hoàn tất, phân khúc và xây dựng phân tích bán hàng, cohort và dịch vụ.
-3. Đối chiếu tổng số với Python và dựng báo cáo Power BI từ mô hình dữ liệu, Power Query và DAX.
-4. Xếp ưu tiên hành động theo trạng thái dịch vụ, nguy cơ rời bỏ, giá trị và cơ hội bán chéo.
+1. **Data checks:** primary keys, order status and exceptions across the 8 tables. One service request (SR00032) is dated before its purchase, so it is flagged and excluded from service KPIs. It is not deleted.
+2. **SQL Server** ([customer360.sql](customer360.sql)) computes:
+   - completed-order revenue,
+   - RFM-style segments as of 2025-12-31,
+   - sales by branch, category and channel,
+   - monthly cohorts and service KPIs.
+3. **Python** ([reproduce_analysis.py](reproduce_analysis.py)) rebuilds the same tables from the CSVs into [results/](results). [verify_customer360.sql](verify_customer360.sql) reconciles SQL against Python totals: 600 customers, 575 buyers, 2,998 orders and 53,357,307,150 VND all match.
+4. **Power BI** ([powerbi/](powerbi)):
+   - star schema, Power Query and 51 DAX measures,
+   - 5 report pages with navigation and filters,
+   - `Validate_*.dax` queries that check KPIs against the source totals.
+5. **Next action per customer**, assigned in priority order:
 
-Kết quả SQL Server được đối chiếu với Python: 600 khách, 575 khách mua, 2.998 đơn hoàn tất và 53.357.307.150 đồng. Phân khúc là ảnh chụp tại 31/12/2025; retention M1 chỉ tính các cohort đã quan sát đủ tháng tiếp theo.
+   | Action | Customers |
+   |---|---:|
+   | Service recovery | 12 |
+   | Retention | 48 |
+   | Champion care | 81 |
+   | Audio cross-sell | 92 |
+   | No action | 367 |
 
-## Tệp dự án và cách sử dụng
+## Run
 
-- [customer360.sql](customer360.sql): truy vấn phân tích SQL Server, chạy trong cùng một phiên.
-- [Dashboard Power BI](dashboard/Customer360_Final.pbix): bản có dữ liệu nhúng; [các measure DAX](dashboard/DAX_measures.dax).
-- [customer-360.zip](customer-360.zip): bộ nguồn đầy đủ gồm PBIP, dữ liệu giả lập, SQL đối chiếu, script Python và kết quả. Giải nén trước khi sử dụng.
-- [Báo cáo chi tiết trên Notion](https://app.notion.com/p/Customer-360-cho-chu-i-b-n-l-thi-t-b-i-n-t-3ad24d1b4aa180d9af83cefd8785196c): cần quyền truy cập trang nếu chủ sở hữu chưa công khai.
+```bash
+pip install pandas
+python reproduce_analysis.py        # reads data/, writes results/
+```
 
-Để refresh bản PBIP trên máy khác, điều chỉnh tham số **DataFolder** trỏ đến thư mục `Data` trong bộ ZIP. File PBIX có dữ liệu nhúng để xem ngay.
+- **SQL:** load the CSVs from `data/` into SQL Server, then run `customer360.sql` top to bottom in one session (it uses `#temp` tables).
+- **Power BI:** open `powerbi/Customer360_Final.pbix` to browse the report with its data already embedded. To edit and refresh, open `powerbi/Customer360.pbip` and set the **DataFolder** parameter to your local `data/` folder.
 
-## Giới hạn
+## Repository map
 
-- Dữ liệu giả lập chỉ có năm 2025; chưa đủ cơ sở kết luận tính mùa vụ.
-- Chưa có log chiến dịch hoặc nhóm đối chứng để xác định hiệu quả các đề xuất.
-- Ngưỡng phân khúc là quy tắc nghiệp vụ, chưa phải mô hình dự báo được kiểm định.
-- Lợi nhuận gộp dòng hàng tính trước giảm giá cấp đơn, phí vận chuyển, hoàn tiền và chi phí vận hành.
-- Thiếu lý do hủy; `resolution_days` có cả với yêu cầu đang mở nên cần xác minh định nghĩa. Thời gian xử lý trong báo cáo dùng các yêu cầu Resolved.
+```text
+data/        8 source CSVs (synthetic)
+results/     tables produced by reproduce_analysis.py
+powerbi/     PBIP project, PBIX, DAX measures, Power Query, validation queries
+dashboard/   screenshots of the 5 report pages
+```
+
+## Limitations
+
+- Synthetic data, one year only: no conclusion about seasonality.
+- No campaign log or control group, so the impact of the suggested actions is not measured.
+- Segment thresholds are business rules, not a validated predictive model. See [customer-360-ml](https://github.com/ZackingZ2006/customer-360-ml) for a repurchase model.
+- Line-level gross profit is before order discounts, shipping, refunds and operating costs.
+- No cancellation reasons. `resolution_days` is also filled for open requests, so resolution time uses resolved requests only.

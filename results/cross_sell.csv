@@ -1,0 +1,116 @@
+﻿customer_id,full_name,gender,birth_date,city,occupation,join_date,home_branch_id,preferred_channel,loyalty_tier,marketing_opt_in,completed_orders,total_revenue,first_purchase_date,last_purchase_date,channels_used,categories_bought,total_units,bought_smartphone,bought_audio,service_requests,open_requests,return_requests,total_refund,recency_days,aov,segment
+C0001,Huynh Duc Nam,Male,1987-03-20,Da Nang,Thiet ke,2024-12-27,B005,Store,Platinum,Y,16.0,446660000.0,2025-01-01,2025-11-12,3.0,6.0,32.0,1.0,0.0,2.0,0.0,1.0,10331002.0,49.0,27916250.0,Champion
+C0064,Ho Duc Tu,Male,1983-10-03,TP.HCM,Ky su,2024-08-09,B009,Mobile App,Platinum,Y,9.0,273175550.0,2025-03-02,2025-08-09,3.0,7.0,23.0,1.0,0.0,2.0,0.0,1.0,4937933.0,144.0,30352838.888888888,High Value At Risk
+C0068,Huynh Tuan Tu,Male,1991-09-20,Da Nang,Giao vien,2023-01-07,B005,Marketplace,Platinum,Y,12.0,215449650.0,2025-01-09,2025-08-17,3.0,7.0,21.0,1.0,0.0,1.0,0.0,1.0,10175009.0,136.0,17954137.5,High Value At Risk
+C0065,Le Phuong My,Female,1992-04-25,Can Tho,Lap trinh vien,2022-06-09,B012,Mobile App,Platinum,Y,11.0,207585500.0,2025-01-31,2025-07-26,3.0,6.0,27.0,1.0,0.0,0.0,0.0,0.0,0.0,158.0,18871409.09090909,High Value At Risk
+C0045,Dang Tuan Hai,Male,1973-11-03,TP.HCM,Nhan vien van phong,2022-01-12,B009,Store,Gold,Y,11.0,166206350.0,2025-01-15,2025-08-19,3.0,7.0,25.0,1.0,0.0,1.0,0.0,0.0,0.0,134.0,15109668.181818182,High Value At Risk
+C0468,Ly Thanh Trang,Female,1989-12-24,Ha Noi,Nhan vien dich vu,2024-06-07,B002,Store,Gold,Y,9.0,154473350.0,2025-01-26,2025-12-06,3.0,6.0,15.0,1.0,0.0,0.0,0.0,0.0,0.0,25.0,17163705.555555556,Champion
+C0268,Vo Minh Cuong,Male,1994-09-18,TP.HCM,Nhan vien dich vu,2022-07-09,B009,Store,Gold,Y,6.0,150065500.0,2025-01-06,2025-12-11,3.0,6.0,19.0,1.0,0.0,2.0,0.0,0.0,0.0,20.0,25010916.666666668,Champion
+C0514,Dang Gia Hai,Male,2001-05-21,Ha Noi,Giao vien,2025-09-09,B001,Store,Gold,Y,4.0,132606950.0,2025-10-13,2025-12-02,1.0,6.0,13.0,1.0,0.0,2.0,0.0,2.0,32383317.0,29.0,33151737.5,Loyal
+C0101,Ly Thi Anh,Female,1977-05-13,Ha Noi,Lap trinh vien,2024-01-04,B001,Website,Gold,Y,5.0,125813200.0,2025-01-31,2025-11-28,2.0,5.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,33.0,25162640.0,Champion
+C0147,Huynh Thanh Cuong,Male,2004-01-21,TP.HCM,Nhan vien dich vu,2024-09-10,B010,Marketplace,Gold,Y,3.0,122480450.0,2025-11-28,2025-12-18,2.0,5.0,12.0,1.0,0.0,1.0,1.0,0.0,0.0,13.0,40826816.666666664,Need Nurture
+C0361,Do Gia Cuong,Male,1984-08-20,Can Tho,Ky su,2022-06-30,B012,Mobile App,Gold,Y,3.0,120768950.0,2025-03-13,2025-06-28,2.0,5.0,7.0,1.0,0.0,1.0,0.0,0.0,0.0,186.0,40256316.666666664,High Value At Risk
+C0338,Do Bao Trang,Female,1991-08-23,Ha Noi,Ky su,2022-04-22,B001,Store,Gold,Y,3.0,119435100.0,2025-04-13,2025-08-04,2.0,5.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,149.0,39811700.0,High Value At Risk
+C0243,Duong Minh Dung,Male,1987-11-06,TP.HCM,Lap trinh vien,2023-03-16,B011,Store,Gold,Y,6.0,115629400.0,2025-03-11,2025-12-06,2.0,4.0,14.0,1.0,0.0,0.0,0.0,0.0,0.0,25.0,19271566.666666668,Champion
+C0439,Le Quang Viet,Male,1989-06-17,TP.HCM,Sinh vien,2024-11-04,B008,Store,Gold,Y,4.0,114988300.0,2025-04-25,2025-12-15,3.0,4.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,16.0,28747075.0,Loyal
+C0370,Vu Quang An,Male,1980-07-13,TP.HCM,Sinh vien,2023-07-15,B011,Mobile App,Gold,Y,7.0,114443550.0,2025-03-05,2025-11-08,1.0,6.0,16.0,1.0,0.0,0.0,0.0,0.0,0.0,53.0,16349078.57142857,Champion
+C0258,Vu Khanh Hoa,Female,1965-02-20,TP.HCM,Kinh doanh tu do,2023-02-19,B008,Mobile App,Gold,Y,4.0,113530650.0,2025-02-15,2025-12-18,1.0,4.0,7.0,1.0,0.0,1.0,0.0,0.0,0.0,13.0,28382662.5,Loyal
+C0320,Pham Phuong Ha,Female,1987-08-04,Ha Noi,Sinh vien,2023-06-14,B003,Store,Gold,Y,5.0,109808150.0,2025-02-09,2025-12-31,3.0,4.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,21961630.0,Champion
+C0088,Ly Ngoc Phuong,Female,1997-09-08,Ha Noi,Chu cua hang,2025-02-07,B001,Store,Gold,Y,5.0,107779950.0,2025-06-12,2025-12-19,2.0,6.0,11.0,1.0,0.0,0.0,0.0,0.0,0.0,12.0,21555990.0,Champion
+C0046,Le Minh Quan,Male,1996-08-26,TP.HCM,Nhan vien van phong,2025-04-06,B008,Store,Gold,Y,3.0,101576100.0,2025-06-08,2025-07-15,1.0,4.0,5.0,1.0,0.0,1.0,0.0,0.0,0.0,169.0,33858700.0,High Value At Risk
+C0050,Do Gia Viet,Male,1986-04-15,Da Nang,Sinh vien,2025-03-01,B006,Store,Gold,Y,6.0,100074450.0,2025-04-17,2025-08-31,3.0,4.0,11.0,1.0,0.0,1.0,0.0,1.0,268608.0,122.0,16679075.0,High Value At Risk
+C0345,Duong Van Thang,Male,1992-11-20,TP.HCM,Chu cua hang,2025-01-14,B008,Website,Gold,Y,6.0,96558500.0,2025-05-29,2025-12-29,2.0,5.0,17.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,16093083.333333334,Loyal
+C0467,Ly Phuong Mai,Female,1992-09-05,TP.HCM,Nhan vien dich vu,2022-03-29,B008,Marketplace,Gold,Y,4.0,95775550.0,2025-03-13,2025-12-02,2.0,5.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,29.0,23943887.5,Loyal
+C0248,Phan Bao Linh,Female,1997-03-24,Hai Phong,Lap trinh vien,2025-02-01,B004,Mobile App,Gold,Y,6.0,93611700.0,2025-04-06,2025-12-22,2.0,5.0,12.0,1.0,0.0,0.0,0.0,0.0,0.0,9.0,15601950.0,Loyal
+C0389,Duong Duc Thang,Male,2000-04-20,Can Tho,Giao vien,2023-09-30,B012,Store,Gold,Y,4.0,93420300.0,2025-03-19,2025-08-12,2.0,4.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,141.0,23355075.0,High Value At Risk
+C0108,Vo Mai Linh,Female,1968-12-04,Ha Noi,Chu cua hang,2024-11-14,B001,Marketplace,Gold,Y,4.0,90532950.0,2025-02-13,2025-06-24,2.0,5.0,8.0,1.0,0.0,1.0,0.0,1.0,11654415.0,190.0,22633237.5,High Value At Risk
+C0382,Bui Nhat Binh,Male,2001-01-26,TP.HCM,Chu cua hang,2022-11-05,B008,Store,Silver,Y,4.0,88369000.0,2025-01-14,2025-11-12,1.0,4.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,49.0,22092250.0,Loyal
+C0208,Ho Thi Ha,Female,1987-06-19,Da Nang,Sinh vien,2022-08-30,B005,Website,Silver,Y,4.0,87990050.0,2025-01-25,2025-09-13,3.0,3.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,109.0,21997512.5,High Value At Risk
+C0245,Le Phuong Mai,Female,1998-04-08,Da Nang,Ky su,2024-10-06,B005,Store,Silver,Y,3.0,86380750.0,2025-01-03,2025-11-06,1.0,5.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,55.0,28793583.333333332,Need Nurture
+C0216,Huynh Ngoc Phuong,Female,1971-02-26,TP.HCM,Kinh doanh tu do,2024-01-21,B010,Store,Silver,Y,4.0,84827350.0,2025-04-29,2025-12-27,2.0,3.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,4.0,21206837.5,Loyal
+C0265,Hoang Minh Binh,Male,1985-10-03,Ha Noi,Giao vien,2023-10-23,B003,Store,Silver,Y,5.0,84229200.0,2025-01-04,2025-12-25,1.0,5.0,11.0,1.0,0.0,0.0,0.0,0.0,0.0,6.0,16845840.0,Loyal
+C0186,Phan Huu Trung,Male,1970-08-12,Can Tho,Lap trinh vien,2022-08-25,B012,Mobile App,Silver,Y,4.0,82182700.0,2025-04-12,2025-09-09,2.0,6.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,113.0,20545675.0,High Value At Risk
+C0154,Phan Thi Phuong,Female,1980-03-24,Can Tho,Sinh vien,2023-05-02,B012,Store,Silver,Y,3.0,80452800.0,2025-06-10,2025-10-25,2.0,5.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,67.0,26817600.0,Need Nurture
+C0455,Tran Minh Dung,Male,1972-11-27,TP.HCM,Chu cua hang,2022-07-10,B008,Store,Silver,Y,5.0,79499800.0,2025-01-12,2025-09-08,3.0,6.0,10.0,1.0,0.0,1.0,0.0,0.0,0.0,114.0,15899960.0,High Value At Risk
+C0362,Le Thu Dung,Female,2000-12-24,Ha Noi,Ky su,2024-11-28,B001,Store,Silver,Y,3.0,78637500.0,2025-02-03,2025-12-02,2.0,5.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,29.0,26212500.0,Need Nurture
+C0343,Do Thu Mai,Female,2004-09-20,Can Tho,Kinh doanh tu do,2022-07-30,B012,Mobile App,Silver,Y,7.0,76605550.0,2025-05-08,2025-12-29,3.0,6.0,17.0,1.0,0.0,2.0,0.0,0.0,0.0,2.0,10943650.0,Loyal
+C0500,Ho Anh Hung,Male,1968-12-16,Can Tho,Sinh vien,2024-09-06,B012,Store,Silver,Y,4.0,74954100.0,2025-01-16,2025-12-15,1.0,4.0,9.0,1.0,0.0,1.0,0.0,0.0,0.0,16.0,18738525.0,Loyal
+C0247,Ngo Minh Viet,Male,1969-05-03,TP.HCM,Quan ly,2023-05-12,B011,Marketplace,Silver,Y,4.0,74093100.0,2025-01-21,2025-12-14,3.0,3.0,12.0,1.0,0.0,1.0,0.0,0.0,0.0,17.0,18523275.0,Loyal
+C0158,Tran Bao Chi,Female,1994-03-22,TP.HCM,Quan ly,2022-06-26,B009,Website,Silver,Y,3.0,70057050.0,2025-03-29,2025-09-29,2.0,4.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,93.0,23352350.0,High Value At Risk
+C0374,Tran Minh Hai,Male,1972-04-03,Can Tho,Thiet ke,2024-06-28,B012,Store,Silver,Y,3.0,69674450.0,2025-01-13,2025-12-27,1.0,4.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,4.0,23224816.666666668,Need Nurture
+C0340,Ngo Mai Phuong,Female,1977-11-27,Khanh Hoa,Chu cua hang,2022-10-05,B007,Store,Silver,Y,3.0,69182850.0,2025-08-03,2025-12-30,2.0,4.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,23060950.0,Need Nurture
+C0256,Ho Dieu Ngan,Female,1965-04-03,Can Tho,Nhan vien van phong,2024-05-26,B012,Website,Silver,Y,2.0,67359450.0,2025-06-11,2025-10-14,2.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,78.0,33679725.0,Need Nurture
+C0204,Vu Anh Son,Male,1971-06-09,Da Nang,Nhan vien dich vu,2023-07-07,B005,Store,Silver,Y,5.0,66765250.0,2025-02-20,2025-12-12,2.0,5.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,19.0,13353050.0,Loyal
+C0497,Vu Duc Thang,Male,1971-04-09,TP.HCM,Thiet ke,2025-04-11,B008,Store,Silver,Y,3.0,66436150.0,2025-09-21,2025-11-16,2.0,4.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,45.0,22145383.333333332,Need Nurture
+C0281,Hoang Minh Binh,Male,1979-02-22,TP.HCM,Nhan vien dich vu,2022-04-11,B009,Website,Silver,Y,3.0,63488400.0,2025-01-18,2025-11-29,2.0,3.0,7.0,1.0,0.0,2.0,0.0,0.0,0.0,32.0,21162800.0,Need Nurture
+C0272,Pham Mai Dung,Female,1979-05-04,TP.HCM,Quan ly,2024-06-24,B009,Website,Silver,Y,2.0,63288000.0,2025-04-03,2025-10-13,2.0,1.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,79.0,31644000.0,Need Nurture
+C0369,Phan Thu Thao,Female,1976-03-20,Da Nang,Thiet ke,2024-01-21,B005,Store,Silver,Y,4.0,62421900.0,2025-05-02,2025-12-23,2.0,4.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,8.0,15605475.0,Loyal
+C0517,Dang Anh Viet,Male,1998-12-20,Hai Phong,Giao vien,2025-11-23,B004,Marketplace,Silver,Y,4.0,61909750.0,2025-11-23,2025-12-25,3.0,4.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,6.0,15477437.5,Loyal
+C0350,Nguyen Minh Phong,Male,1975-12-05,TP.HCM,Giao vien,2024-12-31,B008,Marketplace,Silver,Y,2.0,60816250.0,2025-05-05,2025-11-11,2.0,3.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,50.0,30408125.0,Need Nurture
+C0307,Tran Thanh Anh,Female,1992-08-17,Ha Noi,Nhan vien van phong,2023-12-24,B003,Mobile App,Silver,Y,6.0,60229050.0,2025-02-26,2025-12-06,3.0,6.0,11.0,1.0,0.0,0.0,0.0,0.0,0.0,25.0,10038175.0,Loyal
+C0392,Ho Huu Trung,Male,1988-10-25,TP.HCM,Chu cua hang,2023-10-13,B010,Store,Silver,Y,4.0,60057600.0,2025-01-21,2025-12-11,3.0,5.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,20.0,15014400.0,Loyal
+C0556,Phan Khanh Dung,Female,1974-01-07,Ha Noi,Ky su,2025-09-28,B002,Store,Silver,Y,3.0,59932250.0,2025-10-21,2025-11-24,3.0,3.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,37.0,19977416.666666668,Need Nurture
+C0205,Dang Huu Phong,Male,1998-02-05,TP.HCM,Quan ly,2023-11-02,B009,Store,Silver,Y,3.0,58901650.0,2025-06-18,2025-12-30,2.0,4.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,19633883.333333332,Need Nurture
+C0347,Phan Thu Dung,Female,1988-05-07,TP.HCM,Lap trinh vien,2024-01-28,B008,Store,Silver,Y,5.0,58386150.0,2025-02-10,2025-07-20,1.0,6.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,164.0,11677230.0,Need Nurture
+C0277,Pham Bao Trang,Female,1966-10-22,TP.HCM,Nhan vien dich vu,2023-05-27,B010,Store,Silver,Y,4.0,57978250.0,2025-05-30,2025-11-04,2.0,4.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,57.0,14494562.5,Loyal
+C0238,Hoang Dieu Huong,Female,1984-09-11,Da Nang,Kinh doanh tu do,2024-09-19,B006,Store,Silver,Y,3.0,57326250.0,2025-06-04,2025-11-19,2.0,4.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,42.0,19108750.0,Need Nurture
+C0531,Pham Thanh Anh,Female,1966-04-08,Ha Noi,Quan ly,2025-11-08,B001,Store,Silver,Y,4.0,56798400.0,2025-11-13,2025-12-08,3.0,4.0,7.0,1.0,0.0,1.0,0.0,1.0,827762.0,23.0,14199600.0,Loyal
+C0355,Phan Ngoc Trang,Female,1996-10-08,Ha Noi,Chu cua hang,2022-05-15,B001,Marketplace,Silver,Y,3.0,56119500.0,2025-01-29,2025-11-12,2.0,3.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,49.0,18706500.0,Need Nurture
+C0480,Bui Mai My,Female,1982-08-17,Ha Noi,Ky su,2024-12-08,B003,Store,Silver,Y,2.0,55033350.0,2025-01-02,2025-09-18,2.0,3.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,104.0,27516675.0,Need Nurture
+C0494,Huynh Minh Thang,Male,1997-06-23,TP.HCM,Quan ly,2022-09-04,B011,Mobile App,Silver,Y,4.0,54772300.0,2025-05-21,2025-12-10,2.0,3.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,21.0,13693075.0,Loyal
+C0538,Ly Van Tu,Male,1965-01-11,TP.HCM,Nhan vien van phong,2025-12-23,B010,Store,Silver,Y,2.0,54695400.0,2025-12-23,2025-12-29,2.0,4.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,27347700.0,New Customer
+C0127,Bui Quang Thang,Male,1966-01-17,Ha Noi,Quan ly,2023-07-06,B002,Store,Silver,Y,4.0,53431150.0,2025-09-17,2025-12-10,2.0,4.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,21.0,13357787.5,Loyal
+C0226,Le Tuan Hung,Male,1968-09-20,Can Tho,Sinh vien,2024-03-09,B012,Website,Silver,Y,2.0,52627750.0,2025-11-02,2025-12-23,1.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,8.0,26313875.0,New Customer
+C0279,Phan Phuong Phuong,Female,1989-04-24,TP.HCM,Lap trinh vien,2024-08-22,B008,Website,Silver,Y,4.0,50899000.0,2025-07-18,2025-12-22,2.0,4.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,9.0,12724750.0,Loyal
+C0321,Hoang Tuan Nam,Male,1976-05-18,Ha Noi,Giao vien,2024-11-24,B001,Website,Silver,Y,3.0,50448950.0,2025-07-08,2025-09-26,2.0,3.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,96.0,16816316.666666668,Need Nurture
+C0276,Ngo Huu An,Male,1988-06-21,TP.HCM,Quan ly,2022-04-02,B010,Store,Silver,Y,4.0,47783800.0,2025-01-25,2025-11-12,2.0,4.0,8.0,1.0,0.0,1.0,0.0,0.0,0.0,49.0,11945950.0,Loyal
+C0430,Le Thu Ngan,Female,1992-05-15,Can Tho,Ky su,2024-05-29,B012,Mobile App,Silver,Y,2.0,45648000.0,2025-03-20,2025-06-03,1.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,211.0,22824000.0,Dormant
+C0411,Vu Minh Binh,Male,1993-05-02,Khanh Hoa,Thiet ke,2024-06-12,B007,Store,Silver,Y,3.0,44383600.0,2025-05-09,2025-06-12,2.0,5.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,202.0,14794533.333333334,Dormant
+C0516,Ngo Minh Trung,Male,1985-03-04,Khanh Hoa,Nhan vien dich vu,2025-09-09,B007,Store,Silver,Y,2.0,43336400.0,2025-09-09,2025-10-31,1.0,3.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,61.0,21668200.0,Need Nurture
+C0305,Tran Mai Hoa,Female,1978-04-22,TP.HCM,Chu cua hang,2022-12-03,B008,Store,Silver,Y,3.0,43319500.0,2025-04-11,2025-12-23,2.0,4.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,8.0,14439833.333333334,Need Nurture
+C0486,Phan Minh Hung,Male,1965-02-27,Can Tho,Thiet ke,2022-09-29,B012,Mobile App,Silver,Y,3.0,42547800.0,2025-01-13,2025-12-11,1.0,3.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,20.0,14182600.0,Need Nurture
+C0197,Ngo Duc Hung,Male,2004-03-15,TP.HCM,Ky su,2022-08-16,B010,Store,Silver,Y,3.0,40475250.0,2025-07-22,2025-11-28,2.0,4.0,6.0,1.0,0.0,1.0,0.0,1.0,4394128.0,33.0,13491750.0,Need Nurture
+C0275,Duong Nhat Hai,Male,1965-09-19,Ha Noi,Nhan vien van phong,2024-07-05,B001,Mobile App,Silver,Y,3.0,40093900.0,2025-02-10,2025-12-13,1.0,3.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,18.0,13364633.333333334,Need Nurture
+C0512,Pham Quang Nam,Male,1974-06-20,TP.HCM,Quan ly,2025-09-15,B010,Marketplace,Silver,Y,4.0,39813250.0,2025-10-15,2025-12-20,2.0,5.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,11.0,9953312.5,Loyal
+C0228,Ly Khanh Ngan,Female,1994-02-18,Ha Noi,Quan ly,2024-05-20,B003,Store,Silver,Y,2.0,37361000.0,2025-03-21,2025-11-22,2.0,1.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,39.0,18680500.0,Need Nurture
+C0408,Tran Thu Hoa,Female,1972-12-25,Ha Noi,Sinh vien,2024-06-07,B001,Website,Silver,Y,2.0,36987400.0,2025-02-09,2025-09-16,2.0,4.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,106.0,18493700.0,Need Nurture
+C0353,Dang Thanh Huong,Female,2003-04-22,TP.HCM,Thiet ke,2022-12-01,B011,Website,Silver,Y,2.0,36089700.0,2025-08-19,2025-10-15,1.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,77.0,18044850.0,Need Nurture
+C0579,Ngo Thu Hoa,Female,1966-09-13,TP.HCM,Lap trinh vien,2025-08-28,B008,Marketplace,Silver,Y,2.0,35490950.0,2025-10-12,2025-10-16,1.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,76.0,17745475.0,New Customer
+C0461,Le Ngoc Ha,Female,1975-12-08,Ha Noi,Nhan vien dich vu,2023-08-05,B001,Store,Standard,Y,4.0,34613450.0,2025-04-15,2025-12-14,1.0,4.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,17.0,8653362.5,Loyal
+C0141,Do Dieu Linh,Female,1994-08-10,TP.HCM,Kinh doanh tu do,2023-04-03,B011,Store,Standard,Y,4.0,33902550.0,2025-07-03,2025-11-03,2.0,4.0,9.0,1.0,0.0,1.0,0.0,1.0,6161384.0,58.0,8475637.5,Loyal
+C0406,Ho Anh Phong,Male,1994-05-13,TP.HCM,Lap trinh vien,2023-02-21,B009,Store,Standard,Y,2.0,33141900.0,2025-05-12,2025-05-20,2.0,2.0,6.0,1.0,0.0,1.0,0.0,0.0,0.0,225.0,16570950.0,Dormant
+C0224,Hoang Mai Ha,Female,2003-06-16,TP.HCM,Quan ly,2023-03-23,B011,Store,Standard,Y,3.0,32694400.0,2025-04-07,2025-12-20,1.0,4.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,11.0,10898133.333333334,Need Nurture
+C0473,Dang Phuong Giang,Female,1974-02-07,Khanh Hoa,Nhan vien van phong,2024-10-09,B007,Marketplace,Standard,Y,3.0,30659350.0,2025-02-22,2025-12-21,2.0,4.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,10.0,10219783.333333334,Need Nurture
+C0586,Vu Mai Chi,Female,1999-09-13,TP.HCM,Thiet ke,2025-09-12,B009,Store,Standard,Y,2.0,30603000.0,2025-10-03,2025-10-29,2.0,3.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,63.0,15301500.0,New Customer
+C0348,Vu Thanh Linh,Female,1991-01-11,Ha Noi,Nhan vien van phong,2024-08-22,B001,Store,Standard,Y,3.0,30373050.0,2025-03-18,2025-11-29,2.0,5.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,32.0,10124350.0,Need Nurture
+C0479,Vu Tuan Quan,Male,1970-12-19,Ha Noi,Sinh vien,2023-02-07,B003,Marketplace,Standard,Y,2.0,29897750.0,2025-09-01,2025-12-01,1.0,3.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,30.0,14948875.0,Need Nurture
+C0546,Vu Gia Phong,Male,1979-03-17,Hai Phong,Thiet ke,2025-10-30,B004,Store,Standard,Y,3.0,29519050.0,2025-11-04,2025-12-20,2.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,11.0,9839683.333333334,Need Nurture
+C0137,Dang Dieu Huong,Female,1968-04-02,Can Tho,Giao vien,2022-03-02,B012,Website,Standard,Y,3.0,29278700.0,2025-04-29,2025-10-26,1.0,3.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,66.0,9759566.666666666,Need Nurture
+C0508,Tran Bao Chi,Female,2004-01-22,TP.HCM,Lap trinh vien,2025-08-01,B008,Website,Standard,Y,3.0,28806300.0,2025-08-13,2025-10-16,2.0,4.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,76.0,9602100.0,Need Nurture
+C0250,Vu Nhat Khang,Male,1979-07-18,Ha Noi,Lap trinh vien,2024-04-24,B001,Website,Standard,Y,5.0,28165200.0,2025-01-27,2025-09-14,3.0,3.0,10.0,1.0,0.0,0.0,0.0,0.0,0.0,108.0,5633040.0,Loyal
+C0561,Dang Ngoc Phuong,Female,1999-02-02,TP.HCM,Chu cua hang,2025-09-02,B010,Website,Standard,Y,3.0,27083400.0,2025-10-05,2025-11-10,2.0,4.0,8.0,1.0,0.0,1.0,0.0,0.0,0.0,51.0,9027800.0,Need Nurture
+C0403,Pham Ngoc Trang,Female,1984-10-22,Ha Noi,Nhan vien van phong,2023-11-02,B003,Store,Standard,Y,2.0,26810150.0,2025-04-27,2025-05-18,1.0,3.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,227.0,13405075.0,Dormant
+C0210,Dang Quang Thang,Male,2002-01-05,TP.HCM,Thiet ke,2023-03-11,B009,Marketplace,Standard,Y,1.0,26587350.0,2025-12-31,2025-12-31,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,26587350.0,New Customer
+C0144,Vo Dieu Ha,Female,1984-11-18,Khanh Hoa,Ky su,2023-12-01,B007,Store,Standard,Y,1.0,26581700.0,2025-04-03,2025-04-03,1.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,272.0,26581700.0,Dormant
+C0223,Vu Thi Giang,Female,1973-04-18,Ha Noi,Chu cua hang,2024-05-23,B002,Store,Standard,Y,4.0,26502300.0,2025-02-06,2025-12-12,2.0,5.0,7.0,1.0,0.0,0.0,0.0,0.0,0.0,19.0,6625575.0,Loyal
+C0121,Bui Mai Lan,Female,1984-04-09,TP.HCM,Nhan vien van phong,2022-05-15,B010,Store,Standard,Y,1.0,26495400.0,2025-07-11,2025-07-11,1.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,173.0,26495400.0,Need Nurture
+C0125,Ho Thi Huong,Female,1986-03-15,TP.HCM,Ky su,2022-03-08,B011,Mobile App,Standard,Y,4.0,26004300.0,2025-02-20,2025-12-21,2.0,4.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,10.0,6501075.0,Loyal
+C0249,Vo Thanh Hanh,Female,1980-05-12,TP.HCM,Kinh doanh tu do,2023-01-02,B008,Store,Standard,Y,4.0,24815600.0,2025-02-04,2025-11-14,1.0,3.0,6.0,1.0,0.0,1.0,0.0,0.0,0.0,47.0,6203900.0,Loyal
+C0597,Vu Kim My,Female,1989-09-24,Hai Phong,Lap trinh vien,2025-10-26,B004,Website,Standard,Y,2.0,22725900.0,2025-11-30,2025-12-01,1.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,30.0,11362950.0,New Customer
+C0352,Do Quang Khang,Male,2002-05-23,Da Nang,Kinh doanh tu do,2023-10-31,B006,Store,Standard,Y,4.0,22268000.0,2025-01-09,2025-11-04,2.0,3.0,8.0,1.0,0.0,1.0,0.0,0.0,0.0,57.0,5567000.0,Loyal
+C0327,Vu Minh Tu,Male,1974-04-14,Da Nang,Giao vien,2022-04-07,B005,Website,Standard,Y,2.0,21886000.0,2025-03-31,2025-06-21,1.0,2.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,193.0,10943000.0,Dormant
+C0528,Dang Mai Hoa,Female,1980-08-12,TP.HCM,Giao vien,2025-10-05,B011,Mobile App,Standard,Y,3.0,21680650.0,2025-10-19,2025-12-13,2.0,4.0,5.0,1.0,0.0,1.0,0.0,0.0,0.0,18.0,7226883.333333333,Need Nurture
+C0493,Ho Ngoc Mai,Female,1983-04-22,Ha Noi,Chu cua hang,2023-06-26,B002,Store,Standard,Y,3.0,21410300.0,2025-04-30,2025-12-05,2.0,4.0,5.0,1.0,0.0,0.0,0.0,0.0,0.0,26.0,7136766.666666667,Need Nurture
+C0200,Huynh Gia Dung,Male,1980-06-16,Ha Noi,Giao vien,2022-06-23,B003,Store,Standard,Y,3.0,20711650.0,2025-01-04,2025-11-08,2.0,2.0,8.0,1.0,0.0,0.0,0.0,0.0,0.0,53.0,6903883.333333333,Need Nurture
+C0363,Vo Duc Hai,Male,1966-09-10,Ha Noi,Ky su,2023-12-11,B002,Store,Standard,Y,2.0,20664800.0,2025-07-11,2025-07-25,2.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,159.0,10332400.0,Need Nurture
+C0520,Hoang Thu Chi,Female,2003-12-11,Ha Noi,Ky su,2025-10-03,B001,Marketplace,Standard,Y,1.0,19371900.0,2025-12-24,2025-12-24,1.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,7.0,19371900.0,New Customer
+C0336,Vo Gia Hung,Male,2002-05-26,Ha Noi,Quan ly,2024-08-31,B003,Store,Standard,Y,2.0,18818700.0,2025-01-12,2025-03-09,1.0,3.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,297.0,9409350.0,Dormant
+C0174,Tran Kim Huong,Female,1989-11-25,TP.HCM,Chu cua hang,2024-09-26,B010,Website,Standard,Y,1.0,18422000.0,2025-04-13,2025-04-13,1.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,262.0,18422000.0,Dormant
+C0404,Do Thu Trang,Female,1979-12-24,Can Tho,Nhan vien van phong,2023-04-22,B012,Mobile App,Standard,Y,2.0,18394700.0,2025-04-15,2025-07-03,1.0,3.0,6.0,1.0,0.0,0.0,0.0,0.0,0.0,181.0,9197350.0,Dormant
+C0533,Ly Thu Linh,Female,1997-05-01,Ha Noi,Sinh vien,2025-11-14,B002,Store,Standard,Y,1.0,16018950.0,2025-12-15,2025-12-15,1.0,3.0,4.0,1.0,0.0,0.0,0.0,0.0,0.0,16.0,16018950.0,New Customer
+C0456,Nguyen Thu Hoa,Female,2000-07-15,Khanh Hoa,Sinh vien,2024-09-27,B007,Mobile App,Standard,Y,1.0,15048100.0,2025-08-17,2025-08-17,1.0,2.0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,136.0,15048100.0,Need Nurture
+C0131,Vo Ngoc Hoa,Female,1971-08-10,TP.HCM,Nhan vien dich vu,2023-06-28,B008,Website,Standard,Y,2.0,15021350.0,2025-08-09,2025-10-07,1.0,3.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,85.0,7510675.0,Need Nurture
+C0560,Ly Thu Hanh,Female,1983-06-12,TP.HCM,Nhan vien van phong,2025-10-25,B008,Website,Standard,Y,2.0,14892600.0,2025-12-06,2025-12-14,1.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,17.0,7446300.0,New Customer
+C0536,Bui Khanh Dung,Female,1973-07-12,TP.HCM,Giao vien,2025-11-29,B011,Store,Standard,Y,1.0,12286200.0,2025-12-20,2025-12-20,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,11.0,12286200.0,New Customer
+C0220,Ly Mai Anh,Female,1980-11-03,TP.HCM,Ky su,2023-03-15,B010,Store,Standard,Y,2.0,9484900.0,2025-05-07,2025-10-03,2.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,89.0,4742450.0,Need Nurture
+C0312,Huynh Ngoc Dung,Female,1984-03-17,Can Tho,Giao vien,2023-11-12,B012,Store,Standard,Y,2.0,8606300.0,2025-03-24,2025-11-22,2.0,2.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,39.0,4303150.0,Need Nurture

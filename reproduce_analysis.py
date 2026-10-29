@@ -5,8 +5,8 @@ import sys
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'Data'
-OUT = ROOT / 'reproduced_results'
+SOURCE = Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'data'
+OUT = ROOT / 'results'
 OUT.mkdir(parents=True, exist_ok=True)
 tables = {p.stem: pd.read_csv(p) for p in SOURCE.glob('*.csv')}
 keys = dict(dim_region='region_id', dim_branch='branch_id', dim_customer='customer_id',
@@ -168,7 +168,7 @@ assert new_returning.revenue.sum()==total
 assert new_returning.loc[new_returning.customer_type.eq('New observed'),'customers'].sum()==completed.customer_id.nunique()
 assert len(retention)==(c360.segment=='High Value At Risk').sum()
 assert cross.customer_id.is_unique
-summary = {'source':str(SOURCE),'counts':{name:len(df) for name,df in tables.items()},
+summary = {'source':SOURCE.name,'counts':{name:len(df) for name,df in tables.items()},
  'order_min':str(o.order_date.min().date()),'order_max':str(o.order_date.max().date()),
  'service_min':str(s.request_date.min().date()),'service_max':str(s.request_date.max().date()),
  'revenue':float(total),'completed_orders':len(completed),'cancelled_orders':int(period.order_status.eq('Cancelled').sum()),

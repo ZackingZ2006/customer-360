@@ -1,0 +1,2 @@
+# Keep files byte-for-byte (CSV inputs are compared by value and hash).
+* -text

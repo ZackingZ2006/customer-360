@@ -1,0 +1,13 @@
+﻿branch_id,branch_name,region_id,city,branch_type,opening_date,annual_revenue_target
+B001,Ha Noi - Hoan Kiem,R01,Ha Noi,Flagship,2018-05-12,8500000000
+B002,Ha Noi - Cau Giay,R01,Ha Noi,Standard,2019-08-20,7200000000
+B003,Ha Noi - Ha Dong,R01,Ha Noi,Standard,2020-11-06,5500000000
+B004,Hai Phong - Le Chan,R01,Hai Phong,Standard,2021-04-18,4200000000
+B005,Da Nang - Hai Chau,R02,Da Nang,Flagship,2019-03-15,5800000000
+B006,Da Nang - Thanh Khe,R02,Da Nang,Standard,2021-09-10,3800000000
+B007,Nha Trang - Tran Phu,R02,Khanh Hoa,Standard,2022-06-28,3500000000
+B008,TP.HCM - Quan 1,R03,TP.HCM,Flagship,2017-12-01,9200000000
+B009,TP.HCM - Quan 3,R03,TP.HCM,Standard,2019-10-22,7000000000
+B010,TP.HCM - Thu Duc,R03,TP.HCM,Standard,2021-02-14,6000000000
+B011,TP.HCM - Tan Binh,R03,TP.HCM,Standard,2020-07-07,6200000000
+B012,Can Tho - Ninh Kieu,R03,Can Tho,Standard,2022-01-19,4500000000

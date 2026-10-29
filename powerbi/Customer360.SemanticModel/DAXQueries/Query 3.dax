@@ -1,0 +1,25 @@
+DEFINE MEASURE _Measures[Cohort Cell] =
+VAR Age = SELECTEDVALUE(CohortAge[MonthIndex])
+VAR CohortDate = SELECTEDVALUE(Customer360[cohort_month_date])
+VAR Rate = [Cohort Retention]
+RETURN IF(NOT HASONEVALUE(Customer360[cohort_month]) || ISBLANK(CohortDate), BLANK(), IF(Age = 0, FORMAT([Cohort Size], "#,0"), IF(ISBLANK(Rate), BLANK(), FORMAT(Rate,"0.0%"))))
+
+EVALUATE
+UNION(
+ROW("Check", "M1 weighted", "Actual", [Retention M1 Weighted], "Expected", 0.4187725631768953, "Pass", ABS(([Retention M1 Weighted]) - 0.4187725631768953) < .000001),
+ROW("Check", "Buying customers", "Actual", [Buying Customers], "Expected", 575, "Pass", ABS(([Buying Customers]) - 575) < .000001),
+ROW("Check", "Completed orders", "Actual", [Completed Orders], "Expected", 2998, "Pass", ABS(([Completed Orders]) - 2998) < .000001),
+ROW("Check", "Revenue", "Actual", [Revenue], "Expected", 53357307150, "Pass", ABS(([Revenue]) - 53357307150) < 0.01),
+ROW("Check", "CSAT Open", "Actual", [CSAT Open], "Expected", 1.7692307692307692, "Pass", ABS(([CSAT Open]) - 1.7692307692307692) < .000001),
+ROW("Check", "CSAT Resolved", "Actual", [CSAT Resolved], "Expected", 4.226415094339623, "Pass", ABS(([CSAT Resolved]) - 4.226415094339623) < .000001),
+ROW("Check", "Cohort Jan", "Actual", CALCULATE([Cohort Size],Customer360[cohort_month]="2025-01"), "Expected", 154, "Pass", ABS((CALCULATE([Cohort Size],Customer360[cohort_month]="2025-01")) - 154) < .000001),
+ROW("Check", "Cohort Nov", "Actual", CALCULATE([Cohort Size],Customer360[cohort_month]="2025-11"), "Expected", 29, "Pass", ABS((CALCULATE([Cohort Size],Customer360[cohort_month]="2025-11")) - 29) < .000001),
+ROW("Check", "Cohort Nov M1", "Actual", CALCULATE([Cohort Retention],Customer360[cohort_month]="2025-11",CohortAge[MonthIndex]=1), "Expected", 0.7586206896551724, "Pass", ABS((CALCULATE([Cohort Retention],Customer360[cohort_month]="2025-11",CohortAge[MonthIndex]=1)) - 0.7586206896551724) < .000001),
+ROW("Check", "December M1 blank", "Actual", IF(ISBLANK(CALCULATE([Cohort Retention],Customer360[cohort_month]="2025-12",CohortAge[MonthIndex]=1)),1,0), "Expected", 1, "Pass", ABS((IF(ISBLANK(CALCULATE([Cohort Retention],Customer360[cohort_month]="2025-12",CohortAge[MonthIndex]=1)),1,0)) - 1) < .000001),
+ROW("Check", "No Purchase hidden", "Actual", IF(ISBLANK(CALCULATE([Cohort Cell],Customer360[cohort_month]="No purchase",CohortAge[MonthIndex]=0)),1,0), "Expected", 1, "Pass", ABS((IF(ISBLANK(CALCULATE([Cohort Cell],Customer360[cohort_month]="No purchase",CohortAge[MonthIndex]=0)),1,0)) - 1) < .000001),
+ROW("Check", "Average monthly revenue", "Actual", [Average Monthly Revenue Bn], "Expected", 4.4464422625, "Pass", ABS(([Average Monthly Revenue Bn]) - 4.4464422625) < .000001),
+ROW("Check", "Hai Chau resolution", "Actual", [Hai Chau Resolution Days], "Expected", 7.428571428571429, "Pass", ABS(([Hai Chau Resolution Days]) - 7.428571428571429) < .000001),
+ROW("Check", "Assigned cross sell", "Actual", [Cross Sell Assigned], "Expected", 92, "Pass", ABS(([Cross Sell Assigned]) - 92) < .000001),
+ROW("Check", "Service priority customers", "Actual", [Service Recovery Assigned], "Expected", 12, "Pass", ABS(([Service Recovery Assigned]) - 12) < .000001)
+)
+ORDER BY [Check]

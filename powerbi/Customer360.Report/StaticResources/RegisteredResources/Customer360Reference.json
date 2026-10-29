@@ -1,0 +1,30 @@
+{
+  "name": "Customer 360 — Midnight & Brass",
+  "dataColors": [
+    "#597FA4",
+    "#B68B50",
+    "#A6BDD2",
+    "#AE4C50",
+    "#587D71"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#24354B",
+  "tableAccent": "#B68B50",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#24354B"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 15,
+      "color": "#24354B"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 29,
+      "color": "#192B43"
+    }
+  }
+}

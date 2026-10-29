@@ -224,3 +224,4 @@ SELECT (SELECT SUM(line_revenue) FROM #VerifyLines20261014) line_revenue_vnd,
  SUM(CAST(order_total_amount AS decimal(20,2))) order_revenue_vnd FROM #VerifySales20261014;
 -- 53,795,867,150 - 451,450,000 + 12,890,000 = 53,357,307,150.
 -- Refunds are separate; do not subtract again without an accounting definition.
+

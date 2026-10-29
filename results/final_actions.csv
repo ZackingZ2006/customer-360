@@ -1,0 +1,601 @@
+﻿customer_id,home_branch_id,segment,marketing_opt_in,open_requests,total_revenue,recency_days,next_action
+C0008,B002,Champion,N,1.0,652935250.0,8.0,01 Service recovery
+C0070,B006,High Value At Risk,Y,1.0,365880000.0,133.0,01 Service recovery
+C0038,B008,Champion,Y,1.0,351980350.0,28.0,01 Service recovery
+C0037,B011,Champion,Y,1.0,313416100.0,1.0,01 Service recovery
+C0047,B008,High Value At Risk,Y,1.0,302157800.0,170.0,01 Service recovery
+C0227,B001,Champion,N,1.0,131511000.0,5.0,01 Service recovery
+C0147,B010,Need Nurture,Y,1.0,122480450.0,13.0,01 Service recovery
+C0183,B005,Loyal,N,1.0,88594350.0,51.0,01 Service recovery
+C0387,B006,Dormant,Y,2.0,44345950.0,182.0,01 Service recovery
+C0351,B004,Loyal,Y,1.0,35869250.0,78.0,01 Service recovery
+C0302,B011,Need Nurture,Y,1.0,16484800.0,163.0,01 Service recovery
+C0574,B012,New Customer,N,1.0,12909000.0,14.0,01 Service recovery
+C0055,B008,High Value At Risk,Y,0.0,374220800.0,124.0,02 Retention
+C0066,B004,High Value At Risk,Y,0.0,370057250.0,176.0,02 Retention
+C0053,B003,High Value At Risk,Y,0.0,352112350.0,130.0,02 Retention
+C0059,B002,High Value At Risk,Y,0.0,335952900.0,122.0,02 Retention
+C0064,B009,High Value At Risk,Y,0.0,273175550.0,144.0,02 Retention
+C0060,B008,High Value At Risk,Y,0.0,259359400.0,170.0,02 Retention
+C0068,B005,High Value At Risk,Y,0.0,215449650.0,136.0,02 Retention
+C0052,B011,High Value At Risk,Y,0.0,212841100.0,122.0,02 Retention
+C0065,B012,High Value At Risk,Y,0.0,207585500.0,158.0,02 Retention
+C0062,B005,High Value At Risk,Y,0.0,206156400.0,125.0,02 Retention
+C0042,B003,High Value At Risk,Y,0.0,204928350.0,145.0,02 Retention
+C0057,B001,High Value At Risk,Y,0.0,203601800.0,146.0,02 Retention
+C0058,B002,High Value At Risk,Y,0.0,202077600.0,125.0,02 Retention
+C0054,B002,High Value At Risk,Y,0.0,191549550.0,149.0,02 Retention
+C0092,B002,High Value At Risk,Y,0.0,177806000.0,109.0,02 Retention
+C0069,B008,High Value At Risk,Y,0.0,171240750.0,133.0,02 Retention
+C0045,B009,High Value At Risk,Y,0.0,166206350.0,134.0,02 Retention
+C0049,B002,High Value At Risk,Y,0.0,159660600.0,141.0,02 Retention
+C0073,B010,High Value At Risk,Y,0.0,158527850.0,98.0,02 Retention
+C0203,B001,High Value At Risk,Y,0.0,134674650.0,108.0,02 Retention
+C0117,B002,High Value At Risk,Y,0.0,131673500.0,120.0,02 Retention
+C0221,B012,High Value At Risk,Y,0.0,124417900.0,93.0,02 Retention
+C0099,B003,High Value At Risk,Y,0.0,123293000.0,122.0,02 Retention
+C0361,B012,High Value At Risk,Y,0.0,120768950.0,186.0,02 Retention
+C0063,B002,High Value At Risk,Y,0.0,120767650.0,163.0,02 Retention
+C0338,B001,High Value At Risk,Y,0.0,119435100.0,149.0,02 Retention
+C0041,B006,High Value At Risk,Y,0.0,111717250.0,149.0,02 Retention
+C0136,B007,High Value At Risk,Y,0.0,102799750.0,98.0,02 Retention
+C0046,B008,High Value At Risk,Y,0.0,101576100.0,169.0,02 Retention
+C0050,B006,High Value At Risk,Y,0.0,100074450.0,122.0,02 Retention
+C0051,B008,High Value At Risk,Y,0.0,99501550.0,126.0,02 Retention
+C0391,B009,High Value At Risk,Y,0.0,95194100.0,108.0,02 Retention
+C0389,B012,High Value At Risk,Y,0.0,93420300.0,141.0,02 Retention
+C0108,B001,High Value At Risk,Y,0.0,90532950.0,190.0,02 Retention
+C0346,B003,High Value At Risk,Y,0.0,89506950.0,226.0,02 Retention
+C0076,B004,High Value At Risk,Y,0.0,88908850.0,92.0,02 Retention
+C0208,B005,High Value At Risk,Y,0.0,87990050.0,109.0,02 Retention
+C0337,B001,High Value At Risk,Y,0.0,82341150.0,267.0,02 Retention
+C0186,B012,High Value At Risk,Y,0.0,82182700.0,113.0,02 Retention
+C0455,B008,High Value At Risk,Y,0.0,79499800.0,114.0,02 Retention
+C0453,B010,High Value At Risk,Y,0.0,76364000.0,202.0,02 Retention
+C0454,B009,High Value At Risk,Y,0.0,73794050.0,102.0,02 Retention
+C0181,B010,High Value At Risk,Y,0.0,73603600.0,166.0,02 Retention
+C0158,B009,High Value At Risk,Y,0.0,70057050.0,93.0,02 Retention
+C0463,B008,High Value At Risk,Y,0.0,69771600.0,93.0,02 Retention
+C0138,B006,High Value At Risk,Y,0.0,68681050.0,132.0,02 Retention
+C0061,B006,High Value At Risk,Y,0.0,68196400.0,126.0,02 Retention
+C0185,B004,High Value At Risk,Y,0.0,60402400.0,114.0,02 Retention
+C0032,B006,Champion,Y,0.0,533680500.0,16.0,03 Champion care
+C0035,B009,Champion,Y,0.0,528740500.0,1.0,03 Champion care
+C0029,B012,Champion,Y,0.0,505476800.0,0.0,03 Champion care
+C0025,B002,Champion,Y,0.0,483536900.0,10.0,03 Champion care
+C0005,B009,Champion,Y,0.0,479193600.0,0.0,03 Champion care
+C0033,B003,Champion,Y,0.0,458923250.0,30.0,03 Champion care
+C0001,B005,Champion,Y,0.0,446660000.0,49.0,03 Champion care
+C0015,B007,Champion,Y,0.0,445334850.0,39.0,03 Champion care
+C0026,B009,Champion,Y,0.0,443336600.0,43.0,03 Champion care
+C0017,B001,Champion,Y,0.0,437248650.0,0.0,03 Champion care
+C0030,B003,Champion,Y,0.0,435035350.0,64.0,03 Champion care
+C0031,B010,Champion,Y,0.0,415878000.0,69.0,03 Champion care
+C0014,B001,Champion,Y,0.0,404883400.0,55.0,03 Champion care
+C0036,B008,Champion,Y,0.0,398628000.0,69.0,03 Champion care
+C0027,B004,Champion,Y,0.0,395692050.0,14.0,03 Champion care
+C0003,B005,Champion,Y,0.0,385573900.0,3.0,03 Champion care
+C0019,B010,Champion,Y,0.0,382338650.0,6.0,03 Champion care
+C0021,B012,Champion,Y,0.0,374488850.0,14.0,03 Champion care
+C0018,B009,Champion,Y,0.0,364108750.0,21.0,03 Champion care
+C0086,B008,Champion,Y,0.0,361004600.0,16.0,03 Champion care
+C0004,B009,Champion,Y,0.0,333555400.0,38.0,03 Champion care
+C0010,B003,Champion,Y,0.0,331447400.0,8.0,03 Champion care
+C0022,B008,Champion,Y,0.0,321716800.0,30.0,03 Champion care
+C0039,B008,Champion,Y,0.0,319858950.0,6.0,03 Champion care
+C0006,B010,Champion,Y,0.0,310035750.0,16.0,03 Champion care
+C0011,B002,Champion,Y,0.0,292931600.0,16.0,03 Champion care
+C0090,B011,Champion,Y,0.0,290388300.0,4.0,03 Champion care
+C0034,B009,Champion,Y,0.0,287573400.0,12.0,03 Champion care
+C0012,B012,Champion,Y,0.0,285702000.0,39.0,03 Champion care
+C0084,B009,Champion,Y,0.0,284977600.0,13.0,03 Champion care
+C0120,B002,Champion,Y,0.0,284402950.0,39.0,03 Champion care
+C0102,B010,Champion,Y,0.0,273483250.0,14.0,03 Champion care
+C0009,B010,Champion,Y,0.0,268090300.0,7.0,03 Champion care
+C0105,B003,Champion,Y,0.0,266111200.0,14.0,03 Champion care
+C0093,B002,Champion,Y,0.0,257207900.0,2.0,03 Champion care
+C0096,B010,Champion,Y,0.0,242786400.0,42.0,03 Champion care
+C0078,B003,Champion,Y,0.0,236901900.0,32.0,03 Champion care
+C0080,B008,Champion,Y,0.0,226087450.0,12.0,03 Champion care
+C0087,B005,Champion,Y,0.0,226061600.0,87.0,03 Champion care
+C0118,B012,Champion,Y,0.0,215377550.0,18.0,03 Champion care
+C0091,B011,Champion,Y,0.0,213415450.0,2.0,03 Champion care
+C0072,B012,Champion,Y,0.0,206941650.0,18.0,03 Champion care
+C0555,B006,Champion,Y,0.0,200790200.0,7.0,03 Champion care
+C0089,B002,Champion,Y,0.0,200670600.0,8.0,03 Champion care
+C0074,B008,Champion,Y,0.0,190637000.0,3.0,03 Champion care
+C0085,B008,Champion,Y,0.0,178189250.0,0.0,03 Champion care
+C0095,B012,Champion,Y,0.0,170534350.0,11.0,03 Champion care
+C0081,B008,Champion,Y,0.0,161579400.0,38.0,03 Champion care
+C0278,B002,Champion,Y,0.0,157558100.0,6.0,03 Champion care
+C0554,B002,Champion,Y,0.0,156526050.0,1.0,03 Champion care
+C0468,B002,Champion,Y,0.0,154473350.0,25.0,03 Champion care
+C0268,B009,Champion,Y,0.0,150065500.0,20.0,03 Champion care
+C0116,B001,Champion,Y,0.0,148164900.0,6.0,03 Champion care
+C0075,B010,Champion,Y,0.0,142868850.0,30.0,03 Champion care
+C0251,B004,Champion,Y,0.0,138049800.0,16.0,03 Champion care
+C0537,B001,Champion,Y,0.0,137564850.0,11.0,03 Champion care
+C0505,B006,Champion,Y,0.0,136964450.0,3.0,03 Champion care
+C0332,B010,Champion,Y,0.0,135556350.0,2.0,03 Champion care
+C0376,B001,Champion,Y,0.0,133054800.0,28.0,03 Champion care
+C0110,B010,Champion,Y,0.0,131614800.0,14.0,03 Champion care
+C0195,B002,Champion,Y,0.0,127841800.0,18.0,03 Champion care
+C0098,B005,Champion,Y,0.0,126402650.0,35.0,03 Champion care
+C0101,B001,Champion,Y,0.0,125813200.0,33.0,03 Champion care
+C0524,B005,Champion,Y,0.0,125354900.0,4.0,03 Champion care
+C0170,B008,Champion,Y,0.0,123940250.0,40.0,03 Champion care
+C0235,B010,Champion,Y,0.0,121749650.0,10.0,03 Champion care
+C0231,B003,Champion,Y,0.0,119379450.0,16.0,03 Champion care
+C0079,B012,Champion,Y,0.0,119279150.0,0.0,03 Champion care
+C0259,B011,Champion,Y,0.0,117553350.0,29.0,03 Champion care
+C0243,B011,Champion,Y,0.0,115629400.0,25.0,03 Champion care
+C0370,B011,Champion,Y,0.0,114443550.0,53.0,03 Champion care
+C0194,B011,Champion,Y,0.0,114328450.0,85.0,03 Champion care
+C0316,B004,Champion,Y,0.0,112581450.0,28.0,03 Champion care
+C0487,B002,Champion,Y,0.0,110879500.0,24.0,03 Champion care
+C0002,B006,Champion,Y,0.0,110630950.0,27.0,03 Champion care
+C0320,B003,Champion,Y,0.0,109808150.0,0.0,03 Champion care
+C0299,B001,Champion,Y,0.0,107821500.0,33.0,03 Champion care
+C0088,B001,Champion,Y,0.0,107779950.0,12.0,03 Champion care
+C0159,B010,Champion,Y,0.0,106125500.0,37.0,03 Champion care
+C0140,B011,Champion,Y,0.0,105271600.0,26.0,03 Champion care
+C0182,B009,Champion,Y,0.0,102543900.0,34.0,03 Champion care
+C0514,B001,Loyal,Y,0.0,132606950.0,29.0,04 Cross-sell
+C0439,B008,Loyal,Y,0.0,114988300.0,16.0,04 Cross-sell
+C0258,B008,Loyal,Y,0.0,113530650.0,13.0,04 Cross-sell
+C0345,B008,Loyal,Y,0.0,96558500.0,2.0,04 Cross-sell
+C0467,B008,Loyal,Y,0.0,95775550.0,29.0,04 Cross-sell
+C0248,B004,Loyal,Y,0.0,93611700.0,9.0,04 Cross-sell
+C0382,B008,Loyal,Y,0.0,88369000.0,49.0,04 Cross-sell
+C0245,B005,Need Nurture,Y,0.0,86380750.0,55.0,04 Cross-sell
+C0216,B010,Loyal,Y,0.0,84827350.0,4.0,04 Cross-sell
+C0265,B003,Loyal,Y,0.0,84229200.0,6.0,04 Cross-sell
+C0154,B012,Need Nurture,Y,0.0,80452800.0,67.0,04 Cross-sell
+C0362,B001,Need Nurture,Y,0.0,78637500.0,29.0,04 Cross-sell
+C0343,B012,Loyal,Y,0.0,76605550.0,2.0,04 Cross-sell
+C0500,B012,Loyal,Y,0.0,74954100.0,16.0,04 Cross-sell
+C0247,B011,Loyal,Y,0.0,74093100.0,17.0,04 Cross-sell
+C0374,B012,Need Nurture,Y,0.0,69674450.0,4.0,04 Cross-sell
+C0340,B007,Need Nurture,Y,0.0,69182850.0,1.0,04 Cross-sell
+C0256,B012,Need Nurture,Y,0.0,67359450.0,78.0,04 Cross-sell
+C0204,B005,Loyal,Y,0.0,66765250.0,19.0,04 Cross-sell
+C0497,B008,Need Nurture,Y,0.0,66436150.0,45.0,04 Cross-sell
+C0281,B009,Need Nurture,Y,0.0,63488400.0,32.0,04 Cross-sell
+C0272,B009,Need Nurture,Y,0.0,63288000.0,79.0,04 Cross-sell
+C0369,B005,Loyal,Y,0.0,62421900.0,8.0,04 Cross-sell
+C0517,B004,Loyal,Y,0.0,61909750.0,6.0,04 Cross-sell
+C0350,B008,Need Nurture,Y,0.0,60816250.0,50.0,04 Cross-sell
+C0307,B003,Loyal,Y,0.0,60229050.0,25.0,04 Cross-sell
+C0392,B010,Loyal,Y,0.0,60057600.0,20.0,04 Cross-sell
+C0556,B002,Need Nurture,Y,0.0,59932250.0,37.0,04 Cross-sell
+C0205,B009,Need Nurture,Y,0.0,58901650.0,1.0,04 Cross-sell
+C0347,B008,Need Nurture,Y,0.0,58386150.0,164.0,04 Cross-sell
+C0277,B010,Loyal,Y,0.0,57978250.0,57.0,04 Cross-sell
+C0238,B006,Need Nurture,Y,0.0,57326250.0,42.0,04 Cross-sell
+C0531,B001,Loyal,Y,0.0,56798400.0,23.0,04 Cross-sell
+C0355,B001,Need Nurture,Y,0.0,56119500.0,49.0,04 Cross-sell
+C0480,B003,Need Nurture,Y,0.0,55033350.0,104.0,04 Cross-sell
+C0494,B011,Loyal,Y,0.0,54772300.0,21.0,04 Cross-sell
+C0538,B010,New Customer,Y,0.0,54695400.0,2.0,04 Cross-sell
+C0127,B002,Loyal,Y,0.0,53431150.0,21.0,04 Cross-sell
+C0226,B012,New Customer,Y,0.0,52627750.0,8.0,04 Cross-sell
+C0279,B008,Loyal,Y,0.0,50899000.0,9.0,04 Cross-sell
+C0321,B001,Need Nurture,Y,0.0,50448950.0,96.0,04 Cross-sell
+C0276,B010,Loyal,Y,0.0,47783800.0,49.0,04 Cross-sell
+C0430,B012,Dormant,Y,0.0,45648000.0,211.0,04 Cross-sell
+C0411,B007,Dormant,Y,0.0,44383600.0,202.0,04 Cross-sell
+C0516,B007,Need Nurture,Y,0.0,43336400.0,61.0,04 Cross-sell
+C0305,B008,Need Nurture,Y,0.0,43319500.0,8.0,04 Cross-sell
+C0486,B012,Need Nurture,Y,0.0,42547800.0,20.0,04 Cross-sell
+C0197,B010,Need Nurture,Y,0.0,40475250.0,33.0,04 Cross-sell
+C0275,B001,Need Nurture,Y,0.0,40093900.0,18.0,04 Cross-sell
+C0512,B010,Loyal,Y,0.0,39813250.0,11.0,04 Cross-sell
+C0228,B003,Need Nurture,Y,0.0,37361000.0,39.0,04 Cross-sell
+C0408,B001,Need Nurture,Y,0.0,36987400.0,106.0,04 Cross-sell
+C0353,B011,Need Nurture,Y,0.0,36089700.0,77.0,04 Cross-sell
+C0579,B008,New Customer,Y,0.0,35490950.0,76.0,04 Cross-sell
+C0461,B001,Loyal,Y,0.0,34613450.0,17.0,04 Cross-sell
+C0141,B011,Loyal,Y,0.0,33902550.0,58.0,04 Cross-sell
+C0406,B009,Dormant,Y,0.0,33141900.0,225.0,04 Cross-sell
+C0224,B011,Need Nurture,Y,0.0,32694400.0,11.0,04 Cross-sell
+C0473,B007,Need Nurture,Y,0.0,30659350.0,10.0,04 Cross-sell
+C0586,B009,New Customer,Y,0.0,30603000.0,63.0,04 Cross-sell
+C0348,B001,Need Nurture,Y,0.0,30373050.0,32.0,04 Cross-sell
+C0479,B003,Need Nurture,Y,0.0,29897750.0,30.0,04 Cross-sell
+C0546,B004,Need Nurture,Y,0.0,29519050.0,11.0,04 Cross-sell
+C0137,B012,Need Nurture,Y,0.0,29278700.0,66.0,04 Cross-sell
+C0508,B008,Need Nurture,Y,0.0,28806300.0,76.0,04 Cross-sell
+C0250,B001,Loyal,Y,0.0,28165200.0,108.0,04 Cross-sell
+C0561,B010,Need Nurture,Y,0.0,27083400.0,51.0,04 Cross-sell
+C0403,B003,Dormant,Y,0.0,26810150.0,227.0,04 Cross-sell
+C0210,B009,New Customer,Y,0.0,26587350.0,0.0,04 Cross-sell
+C0144,B007,Dormant,Y,0.0,26581700.0,272.0,04 Cross-sell
+C0223,B002,Loyal,Y,0.0,26502300.0,19.0,04 Cross-sell
+C0121,B010,Need Nurture,Y,0.0,26495400.0,173.0,04 Cross-sell
+C0125,B011,Loyal,Y,0.0,26004300.0,10.0,04 Cross-sell
+C0249,B008,Loyal,Y,0.0,24815600.0,47.0,04 Cross-sell
+C0597,B004,New Customer,Y,0.0,22725900.0,30.0,04 Cross-sell
+C0352,B006,Loyal,Y,0.0,22268000.0,57.0,04 Cross-sell
+C0327,B005,Dormant,Y,0.0,21886000.0,193.0,04 Cross-sell
+C0528,B011,Need Nurture,Y,0.0,21680650.0,18.0,04 Cross-sell
+C0493,B002,Need Nurture,Y,0.0,21410300.0,26.0,04 Cross-sell
+C0200,B003,Need Nurture,Y,0.0,20711650.0,53.0,04 Cross-sell
+C0363,B002,Need Nurture,Y,0.0,20664800.0,159.0,04 Cross-sell
+C0520,B001,New Customer,Y,0.0,19371900.0,7.0,04 Cross-sell
+C0336,B003,Dormant,Y,0.0,18818700.0,297.0,04 Cross-sell
+C0174,B010,Dormant,Y,0.0,18422000.0,262.0,04 Cross-sell
+C0404,B012,Dormant,Y,0.0,18394700.0,181.0,04 Cross-sell
+C0533,B002,New Customer,Y,0.0,16018950.0,16.0,04 Cross-sell
+C0456,B007,Need Nurture,Y,0.0,15048100.0,136.0,04 Cross-sell
+C0131,B008,Need Nurture,Y,0.0,15021350.0,85.0,04 Cross-sell
+C0560,B008,New Customer,Y,0.0,14892600.0,17.0,04 Cross-sell
+C0536,B011,New Customer,Y,0.0,12286200.0,11.0,04 Cross-sell
+C0220,B010,Need Nurture,Y,0.0,9484900.0,89.0,04 Cross-sell
+C0312,B012,Need Nurture,Y,0.0,8606300.0,39.0,04 Cross-sell
+C0028,B001,Champion,N,0.0,493429050.0,4.0,05 No marketing action
+C0007,B003,Champion,N,0.0,470246550.0,7.0,05 No marketing action
+C0024,B011,Champion,N,0.0,441127600.0,36.0,05 No marketing action
+C0013,B009,Champion,N,0.0,414322950.0,3.0,05 No marketing action
+C0040,B001,Champion,N,0.0,382705300.0,19.0,05 No marketing action
+C0023,B007,Champion,N,0.0,368220600.0,18.0,05 No marketing action
+C0044,B010,High Value At Risk,N,0.0,318755750.0,170.0,05 No marketing action
+C0284,B009,Champion,N,0.0,247334450.0,29.0,05 No marketing action
+C0115,B009,High Value At Risk,N,0.0,220063850.0,99.0,05 No marketing action
+C0104,B009,Loyal,N,0.0,217976800.0,16.0,05 No marketing action
+C0111,B001,Champion,N,0.0,217065700.0,18.0,05 No marketing action
+C0103,B012,Champion,N,0.0,198030950.0,2.0,05 No marketing action
+C0048,B006,High Value At Risk,N,0.0,190907950.0,122.0,05 No marketing action
+C0106,B009,Champion,N,0.0,175205750.0,32.0,05 No marketing action
+C0020,B009,Champion,N,0.0,174245950.0,13.0,05 No marketing action
+C0573,B006,Champion,N,0.0,168091300.0,1.0,05 No marketing action
+C0109,B002,Champion,N,0.0,160470950.0,56.0,05 No marketing action
+C0043,B002,High Value At Risk,N,0.0,154759400.0,153.0,05 No marketing action
+C0016,B006,Champion,N,0.0,152747600.0,10.0,05 No marketing action
+C0145,B003,Champion,N,0.0,147247450.0,3.0,05 No marketing action
+C0333,B002,Champion,N,0.0,147183650.0,40.0,05 No marketing action
+C0083,B011,High Value At Risk,N,0.0,146593650.0,111.0,05 No marketing action
+C0082,B001,Champion,N,0.0,145582700.0,4.0,05 No marketing action
+C0599,B011,Champion,N,0.0,144199150.0,5.0,05 No marketing action
+C0267,B001,Loyal,Y,0.0,136577000.0,0.0,05 No marketing action
+C0501,B007,Need Nurture,Y,0.0,126413450.0,7.0,05 No marketing action
+C0378,B011,Champion,N,0.0,120194300.0,37.0,05 No marketing action
+C0100,B001,Champion,N,0.0,117676050.0,55.0,05 No marketing action
+C0559,B011,Loyal,Y,0.0,114062700.0,19.0,05 No marketing action
+C0417,B010,Loyal,Y,0.0,112435750.0,15.0,05 No marketing action
+C0592,B002,Need Nurture,N,0.0,110307750.0,4.0,05 No marketing action
+C0155,B002,Loyal,N,0.0,109382150.0,56.0,05 No marketing action
+C0107,B001,Champion,N,0.0,108624750.0,55.0,05 No marketing action
+C0209,B002,High Value At Risk,N,0.0,108105650.0,130.0,05 No marketing action
+C0234,B012,Need Nurture,N,0.0,107777100.0,34.0,05 No marketing action
+C0525,B012,Champion,N,0.0,106841650.0,11.0,05 No marketing action
+C0360,B012,Champion,N,0.0,104336050.0,34.0,05 No marketing action
+C0198,B003,Loyal,N,0.0,104086900.0,65.0,05 No marketing action
+C0214,B009,Champion,N,0.0,103600100.0,14.0,05 No marketing action
+C0375,B010,Loyal,Y,0.0,99727450.0,32.0,05 No marketing action
+C0067,B001,High Value At Risk,N,0.0,97239900.0,161.0,05 No marketing action
+C0390,B003,Loyal,Y,0.0,97008300.0,20.0,05 No marketing action
+C0377,B002,Loyal,N,0.0,96995050.0,57.0,05 No marketing action
+C0149,B008,Loyal,Y,0.0,96284650.0,68.0,05 No marketing action
+C0130,B012,Loyal,Y,0.0,95144450.0,34.0,05 No marketing action
+C0522,B004,Need Nurture,N,0.0,93987650.0,11.0,05 No marketing action
+C0164,B012,Need Nurture,Y,0.0,93659100.0,47.0,05 No marketing action
+C0381,B008,High Value At Risk,N,0.0,91425600.0,317.0,05 No marketing action
+C0421,B005,High Value At Risk,N,0.0,91393000.0,308.0,05 No marketing action
+C0396,B010,Loyal,N,0.0,91372350.0,63.0,05 No marketing action
+C0196,B012,Loyal,N,0.0,90788400.0,29.0,05 No marketing action
+C0274,B002,Loyal,N,0.0,90322500.0,30.0,05 No marketing action
+C0452,B012,High Value At Risk,N,0.0,90120250.0,239.0,05 No marketing action
+C0373,B008,Loyal,Y,0.0,90114350.0,0.0,05 No marketing action
+C0462,B002,Loyal,Y,0.0,89881250.0,7.0,05 No marketing action
+C0282,B001,Loyal,Y,0.0,89817200.0,14.0,05 No marketing action
+C0484,B002,Loyal,N,0.0,89723450.0,27.0,05 No marketing action
+C0285,B002,Loyal,Y,0.0,89457700.0,40.0,05 No marketing action
+C0598,B007,Loyal,N,0.0,89401500.0,35.0,05 No marketing action
+C0207,B001,Need Nurture,N,0.0,88589900.0,37.0,05 No marketing action
+C0289,B010,Loyal,Y,0.0,88532600.0,16.0,05 No marketing action
+C0423,B009,High Value At Risk,N,0.0,88283600.0,142.0,05 No marketing action
+C0458,B012,Loyal,Y,0.0,87766000.0,31.0,05 No marketing action
+C0503,B009,Need Nurture,Y,0.0,83871350.0,20.0,05 No marketing action
+C0262,B007,Loyal,Y,0.0,83394350.0,0.0,05 No marketing action
+C0290,B011,Need Nurture,Y,0.0,83363050.0,48.0,05 No marketing action
+C0097,B010,High Value At Risk,N,0.0,82639800.0,115.0,05 No marketing action
+C0581,B011,Need Nurture,N,0.0,81669750.0,39.0,05 No marketing action
+C0519,B003,Loyal,N,0.0,81522950.0,41.0,05 No marketing action
+C0180,B008,Loyal,Y,0.0,81476950.0,28.0,05 No marketing action
+C0511,B003,Loyal,N,0.0,81261250.0,5.0,05 No marketing action
+C0429,B003,High Value At Risk,N,0.0,81093550.0,324.0,05 No marketing action
+C0071,B010,Loyal,Y,0.0,81050100.0,3.0,05 No marketing action
+C0451,B006,Loyal,Y,0.0,80999550.0,22.0,05 No marketing action
+C0485,B006,Loyal,N,0.0,80706200.0,5.0,05 No marketing action
+C0399,B002,Need Nurture,Y,0.0,80374050.0,21.0,05 No marketing action
+C0490,B007,Loyal,Y,0.0,79690550.0,56.0,05 No marketing action
+C0309,B012,Loyal,Y,0.0,79549900.0,10.0,05 No marketing action
+C0291,B011,Loyal,Y,0.0,79260600.0,9.0,05 No marketing action
+C0211,B012,Loyal,N,0.0,79116250.0,8.0,05 No marketing action
+C0591,B009,Loyal,Y,0.0,78552750.0,6.0,05 No marketing action
+C0521,B009,Loyal,N,0.0,78062200.0,0.0,05 No marketing action
+C0358,B008,High Value At Risk,N,0.0,77342650.0,185.0,05 No marketing action
+C0535,B012,Loyal,N,0.0,77002500.0,25.0,05 No marketing action
+C0269,B001,Loyal,N,0.0,76451500.0,48.0,05 No marketing action
+C0498,B008,Loyal,Y,0.0,75549950.0,14.0,05 No marketing action
+C0301,B012,Loyal,Y,0.0,75431850.0,57.0,05 No marketing action
+C0139,B001,Loyal,Y,0.0,75212600.0,25.0,05 No marketing action
+C0150,B012,Loyal,Y,0.0,75030950.0,57.0,05 No marketing action
+C0551,B003,Loyal,Y,0.0,74507700.0,10.0,05 No marketing action
+C0215,B003,Loyal,Y,0.0,74387350.0,40.0,05 No marketing action
+C0322,B012,Loyal,Y,0.0,73869750.0,69.0,05 No marketing action
+C0172,B008,Loyal,N,0.0,73813800.0,31.0,05 No marketing action
+C0304,B012,Loyal,Y,0.0,72927500.0,41.0,05 No marketing action
+C0587,B002,Loyal,Y,0.0,72826050.0,5.0,05 No marketing action
+C0225,B009,Need Nurture,N,0.0,72622700.0,56.0,05 No marketing action
+C0330,B009,Loyal,Y,0.0,71923950.0,6.0,05 No marketing action
+C0341,B012,Loyal,Y,0.0,71190650.0,15.0,05 No marketing action
+C0342,B012,Need Nurture,Y,0.0,71035700.0,24.0,05 No marketing action
+C0471,B010,Loyal,N,0.0,70654500.0,28.0,05 No marketing action
+C0169,B012,Loyal,Y,0.0,70205350.0,2.0,05 No marketing action
+C0359,B012,Loyal,Y,0.0,69933300.0,32.0,05 No marketing action
+C0229,B005,Loyal,Y,0.0,69145550.0,25.0,05 No marketing action
+C0357,B003,Loyal,Y,0.0,68839550.0,16.0,05 No marketing action
+C0206,B012,Loyal,Y,0.0,68394050.0,82.0,05 No marketing action
+C0434,B002,High Value At Risk,N,0.0,67366000.0,187.0,05 No marketing action
+C0507,B011,New Customer,Y,0.0,64498500.0,11.0,05 No marketing action
+C0114,B012,High Value At Risk,N,0.0,63824150.0,159.0,05 No marketing action
+C0550,B012,Loyal,N,0.0,62262750.0,2.0,05 No marketing action
+C0595,B004,Need Nurture,Y,0.0,61577750.0,31.0,05 No marketing action
+C0271,B008,Loyal,Y,0.0,59863700.0,71.0,05 No marketing action
+C0191,B012,Need Nurture,Y,0.0,58758650.0,148.0,05 No marketing action
+C0418,B011,Dormant,N,0.0,58573100.0,304.0,05 No marketing action
+C0530,B006,Need Nurture,Y,0.0,58047400.0,81.0,05 No marketing action
+C0397,B005,Need Nurture,N,0.0,57121100.0,77.0,05 No marketing action
+C0492,B001,Need Nurture,Y,0.0,57048750.0,71.0,05 No marketing action
+C0178,B009,Need Nurture,Y,0.0,56764300.0,144.0,05 No marketing action
+C0188,B012,Need Nurture,N,0.0,56430750.0,176.0,05 No marketing action
+C0564,B009,Loyal,Y,0.0,56332850.0,60.0,05 No marketing action
+C0472,B003,Loyal,Y,0.0,56311350.0,7.0,05 No marketing action
+C0506,B006,Need Nurture,Y,0.0,55806000.0,41.0,05 No marketing action
+C0335,B008,Loyal,Y,0.0,55803050.0,27.0,05 No marketing action
+C0310,B006,Need Nurture,Y,0.0,55569350.0,24.0,05 No marketing action
+C0143,B007,Loyal,Y,0.0,55167500.0,19.0,05 No marketing action
+C0119,B009,Loyal,N,0.0,55158100.0,33.0,05 No marketing action
+C0314,B008,Need Nurture,N,0.0,54608850.0,48.0,05 No marketing action
+C0583,B011,Need Nurture,Y,0.0,54288000.0,26.0,05 No marketing action
+C0529,B012,Need Nurture,N,0.0,53445950.0,15.0,05 No marketing action
+C0292,B003,Loyal,Y,0.0,52166850.0,111.0,05 No marketing action
+C0448,B011,Dormant,N,0.0,52147850.0,358.0,05 No marketing action
+C0261,B002,Loyal,Y,0.0,51979550.0,18.0,05 No marketing action
+C0232,B008,Need Nurture,N,0.0,51537450.0,53.0,05 No marketing action
+C0175,B010,Loyal,Y,0.0,51139500.0,2.0,05 No marketing action
+C0412,B002,Need Nurture,N,0.0,50650100.0,177.0,05 No marketing action
+C0273,B001,Need Nurture,Y,0.0,50474550.0,68.0,05 No marketing action
+C0523,B008,Need Nurture,Y,0.0,50447850.0,5.0,05 No marketing action
+C0582,B002,Loyal,Y,0.0,49979800.0,4.0,05 No marketing action
+C0394,B012,Loyal,Y,0.0,49919100.0,13.0,05 No marketing action
+C0184,B011,Need Nurture,N,0.0,49654200.0,89.0,05 No marketing action
+C0176,B002,Loyal,N,0.0,49166000.0,20.0,05 No marketing action
+C0199,B010,Loyal,Y,0.0,48921900.0,7.0,05 No marketing action
+C0495,B011,Loyal,N,0.0,48846500.0,97.0,05 No marketing action
+C0283,B008,Need Nurture,Y,0.0,48846150.0,124.0,05 No marketing action
+C0177,B007,Loyal,N,0.0,48731950.0,32.0,05 No marketing action
+C0171,B009,Loyal,N,0.0,48382300.0,82.0,05 No marketing action
+C0317,B011,Need Nurture,N,0.0,47620800.0,127.0,05 No marketing action
+C0383,B011,Loyal,N,0.0,46898650.0,65.0,05 No marketing action
+C0460,B010,Loyal,Y,0.0,46674700.0,9.0,05 No marketing action
+C0287,B009,Need Nurture,Y,0.0,45991350.0,144.0,05 No marketing action
+C0527,B001,Loyal,Y,0.0,45725750.0,6.0,05 No marketing action
+C0113,B003,Loyal,Y,0.0,45683550.0,107.0,05 No marketing action
+C0253,B012,Loyal,Y,0.0,44692150.0,60.0,05 No marketing action
+C0286,B008,Need Nurture,Y,0.0,44652500.0,53.0,05 No marketing action
+C0416,B006,Dormant,N,0.0,44182800.0,220.0,05 No marketing action
+C0202,B011,Loyal,Y,0.0,44137150.0,17.0,05 No marketing action
+C0190,B002,Need Nurture,Y,0.0,44026650.0,21.0,05 No marketing action
+C0296,B009,Loyal,Y,0.0,43429050.0,32.0,05 No marketing action
+C0237,B002,Loyal,Y,0.0,42764750.0,51.0,05 No marketing action
+C0133,B007,Need Nurture,Y,0.0,42419050.0,122.0,05 No marketing action
+C0254,B001,Need Nurture,Y,0.0,42389850.0,70.0,05 No marketing action
+C0112,B012,Need Nurture,N,0.0,42242800.0,0.0,05 No marketing action
+C0558,B005,Loyal,Y,0.0,41977300.0,43.0,05 No marketing action
+C0325,B011,Loyal,N,0.0,41645650.0,50.0,05 No marketing action
+C0187,B009,Loyal,Y,0.0,41374200.0,40.0,05 No marketing action
+C0431,B006,Need Nurture,N,0.0,40799050.0,126.0,05 No marketing action
+C0594,B004,Loyal,Y,0.0,40065950.0,17.0,05 No marketing action
+C0319,B005,Loyal,Y,0.0,39988200.0,51.0,05 No marketing action
+C0260,B003,Need Nurture,Y,0.0,39736100.0,27.0,05 No marketing action
+C0489,B010,Loyal,Y,0.0,39689250.0,19.0,05 No marketing action
+C0371,B002,Loyal,Y,0.0,38936950.0,37.0,05 No marketing action
+C0166,B009,Loyal,Y,0.0,38757700.0,31.0,05 No marketing action
+C0562,B004,New Customer,Y,0.0,38715200.0,65.0,05 No marketing action
+C0135,B010,Loyal,N,0.0,38498300.0,21.0,05 No marketing action
+C0077,B007,Need Nurture,Y,0.0,38342300.0,129.0,05 No marketing action
+C0589,B009,Loyal,N,0.0,38125850.0,27.0,05 No marketing action
+C0192,B002,Loyal,Y,0.0,37827400.0,18.0,05 No marketing action
+C0575,B004,Loyal,N,0.0,37801450.0,7.0,05 No marketing action
+C0596,B010,Loyal,Y,0.0,37552100.0,1.0,05 No marketing action
+C0148,B010,Need Nurture,Y,0.0,37284850.0,23.0,05 No marketing action
+C0146,B004,Need Nurture,Y,0.0,37229050.0,108.0,05 No marketing action
+C0563,B002,New Customer,N,0.0,35649250.0,13.0,05 No marketing action
+C0475,B010,Loyal,Y,0.0,35462000.0,28.0,05 No marketing action
+C0388,B001,Loyal,Y,0.0,34657300.0,29.0,05 No marketing action
+C0324,B012,Need Nurture,Y,0.0,34170000.0,55.0,05 No marketing action
+C0398,B001,Need Nurture,Y,0.0,34108050.0,170.0,05 No marketing action
+C0294,B008,Need Nurture,Y,0.0,33716500.0,14.0,05 No marketing action
+C0056,B008,Need Nurture,N,0.0,33547400.0,152.0,05 No marketing action
+C0236,B011,Need Nurture,N,0.0,33250250.0,78.0,05 No marketing action
+C0354,B002,Need Nurture,Y,0.0,33165300.0,64.0,05 No marketing action
+C0570,B009,Loyal,Y,0.0,32487600.0,20.0,05 No marketing action
+C0465,B011,New Customer,Y,0.0,32474200.0,51.0,05 No marketing action
+C0499,B003,Loyal,Y,0.0,32290800.0,33.0,05 No marketing action
+C0393,B002,Dormant,Y,0.0,32184400.0,196.0,05 No marketing action
+C0422,B010,Dormant,Y,0.0,32177500.0,228.0,05 No marketing action
+C0469,B008,Need Nurture,Y,0.0,32071000.0,137.0,05 No marketing action
+C0298,B002,Loyal,N,0.0,31980250.0,45.0,05 No marketing action
+C0367,B011,Need Nurture,Y,0.0,31948350.0,167.0,05 No marketing action
+C0557,B003,Loyal,Y,0.0,31921600.0,2.0,05 No marketing action
+C0478,B001,Loyal,N,0.0,31845400.0,37.0,05 No marketing action
+C0437,B012,Dormant,Y,0.0,31764000.0,339.0,05 No marketing action
+C0201,B005,Loyal,Y,0.0,30896250.0,67.0,05 No marketing action
+C0311,B011,Dormant,N,0.0,30172900.0,246.0,05 No marketing action
+C0152,B003,Loyal,N,0.0,30086650.0,0.0,05 No marketing action
+C0552,B003,New Customer,N,0.0,29823700.0,20.0,05 No marketing action
+C0167,B010,Need Nurture,Y,0.0,29744450.0,56.0,05 No marketing action
+C0349,B008,Need Nurture,Y,0.0,29707750.0,115.0,05 No marketing action
+C0293,B001,Loyal,Y,0.0,29397200.0,87.0,05 No marketing action
+C0126,B004,Loyal,Y,0.0,29387850.0,45.0,05 No marketing action
+C0368,B001,Need Nurture,N,0.0,29340200.0,144.0,05 No marketing action
+C0193,B010,Need Nurture,Y,0.0,29129350.0,153.0,05 No marketing action
+C0246,B010,Need Nurture,Y,0.0,28806650.0,89.0,05 No marketing action
+C0213,B001,Dormant,Y,0.0,28313950.0,209.0,05 No marketing action
+C0543,B008,Need Nurture,Y,0.0,28286400.0,23.0,05 No marketing action
+C0578,B008,New Customer,N,0.0,28244800.0,6.0,05 No marketing action
+C0502,B011,New Customer,Y,0.0,28156300.0,73.0,05 No marketing action
+C0585,B002,Loyal,Y,0.0,28097950.0,17.0,05 No marketing action
+C0264,B009,Loyal,Y,0.0,28094900.0,14.0,05 No marketing action
+C0233,B011,Loyal,N,0.0,27985200.0,33.0,05 No marketing action
+C0565,B005,Need Nurture,Y,0.0,27841500.0,26.0,05 No marketing action
+C0365,B004,Need Nurture,Y,0.0,27707000.0,44.0,05 No marketing action
+C0379,B008,Need Nurture,Y,0.0,27703700.0,51.0,05 No marketing action
+C0257,B008,Dormant,N,0.0,27649700.0,181.0,05 No marketing action
+C0593,B003,Need Nurture,Y,0.0,26812500.0,74.0,05 No marketing action
+C0288,B009,Need Nurture,Y,0.0,26783050.0,22.0,05 No marketing action
+C0433,B008,Dormant,Y,0.0,26656100.0,251.0,05 No marketing action
+C0385,B009,Need Nurture,N,0.0,26499150.0,100.0,05 No marketing action
+C0402,B011,Dormant,Y,0.0,26432050.0,299.0,05 No marketing action
+C0094,B001,Need Nurture,N,0.0,26088100.0,22.0,05 No marketing action
+C0295,B008,Need Nurture,Y,0.0,25975250.0,5.0,05 No marketing action
+C0315,B007,Loyal,Y,0.0,25948850.0,12.0,05 No marketing action
+C0219,B006,Loyal,N,0.0,25643800.0,2.0,05 No marketing action
+C0532,B004,New Customer,Y,0.0,25379900.0,26.0,05 No marketing action
+C0476,B001,Loyal,Y,0.0,24702750.0,33.0,05 No marketing action
+C0572,B007,Loyal,Y,0.0,23703200.0,11.0,05 No marketing action
+C0590,B001,New Customer,Y,0.0,23421400.0,0.0,05 No marketing action
+C0252,B012,Need Nurture,Y,0.0,23036850.0,158.0,05 No marketing action
+C0380,B010,Need Nurture,Y,0.0,22733500.0,3.0,05 No marketing action
+C0240,B006,New Customer,Y,0.0,22566600.0,19.0,05 No marketing action
+C0577,B011,Need Nurture,Y,0.0,22437100.0,1.0,05 No marketing action
+C0474,B008,Need Nurture,Y,0.0,22282500.0,111.0,05 No marketing action
+C0339,B011,Dormant,N,0.0,21763350.0,263.0,05 No marketing action
+C0179,B003,Loyal,Y,0.0,21721850.0,33.0,05 No marketing action
+C0303,B006,Dormant,Y,0.0,21308050.0,193.0,05 No marketing action
+C0241,B001,Loyal,Y,0.0,20700850.0,6.0,05 No marketing action
+C0344,B006,Need Nurture,Y,0.0,20502900.0,8.0,05 No marketing action
+C0509,B008,New Customer,N,0.0,20387400.0,0.0,05 No marketing action
+C0515,B011,New Customer,Y,0.0,20265800.0,39.0,05 No marketing action
+C0569,B010,New Customer,N,0.0,20241000.0,11.0,05 No marketing action
+C0134,B012,Need Nurture,N,0.0,20032800.0,154.0,05 No marketing action
+C0168,B001,Need Nurture,Y,0.0,19900900.0,131.0,05 No marketing action
+C0568,B004,Need Nurture,Y,0.0,19662300.0,24.0,05 No marketing action
+C0266,B010,Loyal,Y,0.0,19302500.0,43.0,05 No marketing action
+C0419,B012,Dormant,Y,0.0,19266000.0,199.0,05 No marketing action
+C0466,B002,Loyal,Y,0.0,18902300.0,96.0,05 No marketing action
+C0518,B001,Loyal,Y,0.0,18884000.0,12.0,05 No marketing action
+C0242,B012,Need Nurture,Y,0.0,18847450.0,28.0,05 No marketing action
+C0584,B010,Need Nurture,N,0.0,18425900.0,14.0,05 No marketing action
+C0366,B008,Need Nurture,Y,0.0,18349350.0,12.0,05 No marketing action
+C0526,B012,New Customer,N,0.0,18251350.0,0.0,05 No marketing action
+C0534,B011,Loyal,Y,0.0,17962900.0,18.0,05 No marketing action
+C0161,B012,Need Nurture,Y,0.0,17841450.0,146.0,05 No marketing action
+C0334,B001,Need Nurture,Y,0.0,17578700.0,118.0,05 No marketing action
+C0163,B003,Need Nurture,N,0.0,16781650.0,12.0,05 No marketing action
+C0445,B012,Dormant,Y,0.0,16679150.0,222.0,05 No marketing action
+C0372,B006,Need Nurture,Y,0.0,16602350.0,101.0,05 No marketing action
+C0356,B002,Need Nurture,N,0.0,16553000.0,141.0,05 No marketing action
+C0162,B001,Need Nurture,Y,0.0,16476700.0,113.0,05 No marketing action
+C0449,B004,Dormant,Y,0.0,16441100.0,188.0,05 No marketing action
+C0576,B005,New Customer,Y,0.0,16377000.0,5.0,05 No marketing action
+C0566,B003,New Customer,N,0.0,16164650.0,41.0,05 No marketing action
+C0414,B009,Dormant,N,0.0,15498000.0,246.0,05 No marketing action
+C0409,B012,Need Nurture,Y,0.0,15254500.0,99.0,05 No marketing action
+C0442,B012,Dormant,Y,0.0,14857400.0,210.0,05 No marketing action
+C0447,B012,Dormant,N,0.0,14760350.0,320.0,05 No marketing action
+C0504,B008,New Customer,N,0.0,14698500.0,49.0,05 No marketing action
+C0165,B008,New Customer,N,0.0,14549400.0,79.0,05 No marketing action
+C0413,B012,Dormant,Y,0.0,14544900.0,280.0,05 No marketing action
+C0122,B005,Loyal,N,0.0,13951650.0,27.0,05 No marketing action
+C0481,B005,Need Nurture,Y,0.0,13839250.0,70.0,05 No marketing action
+C0540,B004,New Customer,Y,0.0,13371700.0,11.0,05 No marketing action
+C0415,B008,Dormant,Y,0.0,13265500.0,209.0,05 No marketing action
+C0395,B008,Loyal,Y,0.0,12850500.0,9.0,05 No marketing action
+C0545,B003,Need Nurture,N,0.0,12750800.0,1.0,05 No marketing action
+C0156,B002,Need Nurture,Y,0.0,12666650.0,113.0,05 No marketing action
+C0600,B001,Need Nurture,Y,0.0,12473000.0,9.0,05 No marketing action
+C0446,B007,Dormant,Y,0.0,12362000.0,187.0,05 No marketing action
+C0189,B005,Dormant,Y,0.0,12045200.0,260.0,05 No marketing action
+C0297,B002,New Customer,Y,0.0,11944150.0,17.0,05 No marketing action
+C0491,B001,Need Nurture,Y,0.0,11901200.0,97.0,05 No marketing action
+C0129,B010,Need Nurture,N,0.0,11592250.0,4.0,05 No marketing action
+C0222,B011,Need Nurture,N,0.0,11334500.0,85.0,05 No marketing action
+C0331,B011,Loyal,N,0.0,10902450.0,68.0,05 No marketing action
+C0588,B012,New Customer,N,0.0,10780900.0,7.0,05 No marketing action
+C0482,B008,Need Nurture,Y,0.0,10680300.0,72.0,05 No marketing action
+C0255,B001,Need Nurture,Y,0.0,10346750.0,105.0,05 No marketing action
+C0128,B009,New Customer,N,0.0,10257000.0,57.0,05 No marketing action
+C0401,B010,Need Nurture,Y,0.0,10190050.0,153.0,05 No marketing action
+C0306,B007,Need Nurture,N,0.0,8453700.0,150.0,05 No marketing action
+C0217,B008,Need Nurture,N,0.0,7796850.0,47.0,05 No marketing action
+C0444,B003,Need Nurture,Y,0.0,7759100.0,163.0,05 No marketing action
+C0567,B007,New Customer,N,0.0,7689300.0,27.0,05 No marketing action
+C0230,B001,Need Nurture,Y,0.0,7605700.0,57.0,05 No marketing action
+C0364,B005,Need Nurture,Y,0.0,7570000.0,104.0,05 No marketing action
+C0435,B002,Need Nurture,Y,0.0,7524900.0,101.0,05 No marketing action
+C0280,B003,New Customer,Y,0.0,7158000.0,27.0,05 No marketing action
+C0405,B012,Dormant,N,0.0,7096500.0,283.0,05 No marketing action
+C0553,B010,New Customer,N,0.0,6629600.0,36.0,05 No marketing action
+C0308,B006,Need Nurture,Y,0.0,6393350.0,138.0,05 No marketing action
+C0160,B002,Need Nurture,N,0.0,6299250.0,96.0,05 No marketing action
+C0483,B001,New Customer,Y,0.0,5462000.0,75.0,05 No marketing action
+C0328,B011,Need Nurture,Y,0.0,5401500.0,85.0,05 No marketing action
+C0541,B010,Need Nurture,Y,0.0,5248000.0,112.0,05 No marketing action
+C0386,B005,Dormant,Y,0.0,5174900.0,350.0,05 No marketing action
+C0313,B009,Dormant,Y,0.0,5063000.0,211.0,05 No marketing action
+C0426,B003,Dormant,Y,0.0,4987000.0,322.0,05 No marketing action
+C0470,B002,Need Nurture,Y,0.0,4874800.0,86.0,05 No marketing action
+C0132,B001,Dormant,Y,0.0,4658000.0,269.0,05 No marketing action
+C0427,B012,New Customer,N,0.0,3825500.0,3.0,05 No marketing action
+C0384,B007,Need Nurture,N,0.0,3398100.0,74.0,05 No marketing action
+C0436,B006,Dormant,N,0.0,3316000.0,340.0,05 No marketing action
+C0239,B009,Need Nurture,Y,0.0,3209000.0,103.0,05 No marketing action
+C0244,B002,Need Nurture,Y,0.0,2887550.0,51.0,05 No marketing action
+C0151,B002,Need Nurture,Y,0.0,2683250.0,65.0,05 No marketing action
+C0157,B005,Dormant,N,0.0,2333750.0,202.0,05 No marketing action
+C0496,B008,Dormant,Y,0.0,1617700.0,222.0,05 No marketing action
+C0300,B001,Need Nurture,Y,0.0,1611750.0,94.0,05 No marketing action
+C0142,B012,Need Nurture,Y,0.0,1602650.0,116.0,05 No marketing action
+C0443,B012,Dormant,Y,0.0,1471000.0,302.0,05 No marketing action
+C0400,B009,New Customer,N,0.0,1203250.0,2.0,05 No marketing action
+C0428,B011,New Customer,N,0.0,1189000.0,62.0,05 No marketing action
+C0329,B012,Dormant,Y,0.0,1186800.0,250.0,05 No marketing action
+C0323,B004,Need Nurture,N,0.0,1173000.0,158.0,05 No marketing action
+C0459,B012,Dormant,N,0.0,1080150.0,213.0,05 No marketing action
+C0173,B001,Dormant,Y,0.0,1058250.0,189.0,05 No marketing action
+C0432,B009,Dormant,Y,0.0,1054000.0,197.0,05 No marketing action
+C0510,B009,New Customer,Y,0.0,1037850.0,5.0,05 No marketing action
+C0263,B010,New Customer,Y,0.0,753900.0,27.0,05 No marketing action
+C0457,B008,Need Nurture,N,0.0,572600.0,101.0,05 No marketing action
+C0488,B011,Dormant,N,0.0,406700.0,255.0,05 No marketing action
+C0477,B010,Need Nurture,N,0.0,294700.0,101.0,05 No marketing action
+C0318,B012,Dormant,Y,0.0,279200.0,326.0,05 No marketing action
+C0124,B010,New Customer,Y,0.0,160550.0,22.0,05 No marketing action
+C0123,B001,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0153,B008,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0212,B009,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0218,B009,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0270,B010,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0326,B010,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0407,B004,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0410,B004,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0420,B009,No Purchase,N,0.0,0.0,,05 No marketing action
+C0424,B006,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0425,B001,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0438,B006,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0440,B005,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0441,B012,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0450,B009,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0464,B012,No Purchase,N,0.0,0.0,,05 No marketing action
+C0513,B003,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0539,B004,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0542,B008,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0544,B004,No Purchase,N,0.0,0.0,,05 No marketing action
+C0547,B012,No Purchase,N,0.0,0.0,,05 No marketing action
+C0548,B006,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0549,B007,No Purchase,Y,0.0,0.0,,05 No marketing action
+C0571,B008,No Purchase,N,0.0,0.0,,05 No marketing action
+C0580,B009,No Purchase,Y,0.0,0.0,,05 No marketing action

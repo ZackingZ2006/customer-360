@@ -1,0 +1,9 @@
+﻿category_id,category_name,category_group,target_margin_pct
+CAT01,Smartphone,Core device,0.22
+CAT02,Laptop,Core device,0.18
+CAT03,Tablet,Core device,0.16
+CAT04,TV & Display,Home electronics,0.2
+CAT05,Audio,Personal electronics,0.28
+CAT06,Accessories,Add-on,0.42
+CAT07,Smart Home,Home electronics,0.3
+CAT08,Gaming,Entertainment,0.25

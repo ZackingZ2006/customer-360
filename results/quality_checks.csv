@@ -1,0 +1,62 @@
+﻿check,issues
+dim_branch: duplicate primary key,0
+dim_branch: missing primary key,0
+dim_branch: missing cells,0
+dim_category: duplicate primary key,0
+dim_category: missing primary key,0
+dim_category: missing cells,0
+dim_customer: duplicate primary key,0
+dim_customer: missing primary key,0
+dim_customer: missing cells,0
+dim_product: duplicate primary key,0
+dim_product: missing primary key,0
+dim_product: missing cells,0
+dim_region: duplicate primary key,0
+dim_region: missing primary key,0
+dim_region: missing cells,0
+fact_order: duplicate primary key,0
+fact_order: missing primary key,0
+fact_order: missing cells,0
+fact_order_detail: duplicate primary key,0
+fact_order_detail: missing primary key,0
+fact_order_detail: missing cells,0
+fact_service_request: duplicate primary key,0
+fact_service_request: missing primary key,0
+fact_service_request: missing cells,0
+dim_branch.region_id: missing parent,0
+dim_customer.home_branch_id: missing parent,0
+dim_product.category_id: missing parent,0
+fact_order.customer_id: missing parent,0
+fact_order.branch_id: missing parent,0
+fact_order_detail.order_id: missing parent,0
+fact_order_detail.product_id: missing parent,0
+fact_service_request.customer_id: missing parent,0
+fact_service_request.order_id: missing parent,0
+fact_service_request.product_id: missing parent,0
+fact_service_request.branch_id: missing parent,0
+order_date: invalid date,0
+join_date: invalid date,0
+birth_date: invalid date,0
+request_date: invalid date,0
+opening_date: invalid date,0
+launch_date: invalid date,0
+order status invalid,0
+quantity not positive integer,0
+price or discount invalid,0
+negative order amounts,0
+invalid product amounts,0
+invalid category margin scale,0
+invalid service numeric,0
+invalid service status,0
+invalid service type,0
+invalid opt-in,0
+orders without detail,0
+order amount mismatch > 1 VND,0
+order amount nonzero differences,0
+service customer differs from order,0
+service precedes order,1
+service on cancelled order,0
+service product not on order,0
+orders outside 2025,0
+service outside 2025,0
+customers joined after cutoff,0
