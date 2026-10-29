@@ -1,0 +1,202 @@
+Revenue =
+CALCULATE(SUM(fact_order[order_total_amount]), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+Revenue Bn =
+DIVIDE([Revenue],1000000000)
+
+Completed Orders =
+CALCULATE(COUNTROWS(fact_order), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+All Orders =
+COUNTROWS(fact_order)
+
+Cancelled Orders =
+CALCULATE(COUNTROWS(fact_order), KEEPFILTERS(fact_order[order_status] = "Cancelled"))
+
+Cancellation Rate =
+DIVIDE([Cancelled Orders],[All Orders])
+
+AOV =
+DIVIDE([Revenue],[Completed Orders])
+
+AOV Mn =
+DIVIDE([AOV],1000000)
+
+Buying Customers =
+CALCULATE(DISTINCTCOUNT(fact_order[customer_id]), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+Repeat Buyers =
+COUNTROWS(FILTER(VALUES(Customer360[customer_id]), [Completed Orders] >= 2))
+
+Repeat Buyer Rate =
+DIVIDE([Repeat Buyers],[Buying Customers])
+
+Revenue Previous Month =
+CALCULATE([Revenue], DATEADD(DimDate[Date],-1,MONTH))
+
+Revenue MoM =
+DIVIDE([Revenue]-[Revenue Previous Month],[Revenue Previous Month])
+
+Returning Revenue =
+CALCULATE([Revenue], KEEPFILTERS(fact_order[purchase_month_type] = "Khách quay lại"))
+
+Returning Revenue Share =
+DIVIDE([Returning Revenue],[Revenue])
+
+Units Sold =
+CALCULATE(SUM(fact_order_detail[quantity]), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+Line Revenue =
+CALCULATE(SUM(fact_order_detail[line_revenue]), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+Line Revenue Bn =
+DIVIDE([Line Revenue],1000000000)
+
+Gross Line Profit =
+CALCULATE(SUM(fact_order_detail[line_profit]), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+Gross Line Profit Bn =
+DIVIDE([Gross Line Profit],1000000000)
+
+Gross Line Margin =
+DIVIDE([Gross Line Profit],[Line Revenue])
+
+Target Margin =
+IF(HASONEVALUE(dim_category[category_id]), MAX(dim_category[target_margin_pct]))
+
+Margin Gap pp =
+IF(HASONEVALUE(dim_category[category_id]),100*([Gross Line Margin]-[Target Margin]))
+
+Annual Branch Target =
+SUM(dim_branch[annual_revenue_target])
+
+Annual Branch Revenue =
+CALCULATE([Revenue], REMOVEFILTERS(DimDate), REMOVEFILTERS(fact_order[sales_channel]))
+
+Annual Target Attainment =
+DIVIDE([Annual Branch Revenue],[Annual Branch Target])
+
+Order Coupons =
+CALCULATE(SUM(fact_order[order_discount_amount]), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+Shipping Fees =
+CALCULATE(SUM(fact_order[shipping_fee]), KEEPFILTERS(fact_order[order_status] = "Completed"))
+
+Revenue Reconciliation =
+[Line Revenue]-[Order Coupons]+[Shipping Fees]-[Revenue]
+
+Snapshot Customers =
+COUNTROWS(Customer360)
+
+Snapshot Revenue Bn =
+DIVIDE(SUM(Customer360[total_revenue]),1000000000)
+
+At Risk Customers =
+CALCULATE(COUNTROWS(Customer360), KEEPFILTERS(Customer360[segment] = "High Value At Risk"))
+
+Retention Eligible =
+CALCULATE(COUNTROWS(Customer360), KEEPFILTERS(Customer360[next_action] = "02 Giữ chân"))
+
+Cross Sell Assigned =
+CALCULATE(COUNTROWS(Customer360), KEEPFILTERS(Customer360[next_action] = "04 Bán chéo Audio"))
+
+Service Recovery Assigned =
+CALCULATE(COUNTROWS(Customer360), KEEPFILTERS(Customer360[next_action] = "01 Xử lý dịch vụ"))
+
+Champion Care Assigned =
+CALCULATE(COUNTROWS(Customer360), KEEPFILTERS(Customer360[next_action] = "03 Chăm sóc Champion"))
+
+Valid Service Requests =
+CALCULATE(COUNTROWS(fact_service_request), KEEPFILTERS(fact_service_request[is_valid_temporal] = TRUE()))
+
+Invalid Service Requests =
+CALCULATE(COUNTROWS(fact_service_request), KEEPFILTERS(fact_service_request[is_valid_temporal] = FALSE()))
+
+Open Service Requests =
+CALCULATE([Valid Service Requests], KEEPFILTERS(fact_service_request[resolution_status] = "Open"))
+
+Avg Resolution Days =
+CALCULATE(AVERAGE(fact_service_request[resolution_days]), fact_service_request[is_valid_temporal] = TRUE(), KEEPFILTERS(fact_service_request[resolution_status] = "Resolved"))
+
+CSAT Resolved =
+CALCULATE(AVERAGE(fact_service_request[satisfaction_score]), fact_service_request[is_valid_temporal] = TRUE(), KEEPFILTERS(fact_service_request[resolution_status] = "Resolved"))
+
+Requests Per 100 Units =
+DIVIDE(100*[Valid Service Requests],[Units Sold])
+
+Service Refunds =
+CALCULATE(SUM(fact_service_request[refund_amount]), fact_service_request[is_valid_temporal] = TRUE())
+
+Cohort Size =
+CALCULATE(COUNTROWS(Customer360), Customer360[completed_orders] > 0)
+
+Cohort Active Buyers =
+VAR Cohort = SELECTEDVALUE(Customer360[cohort_month_date]) VAR OffsetMonths = SELECTEDVALUE(CohortAge[MonthIndex]) VAR MonthStart = EDATE(Cohort,OffsetMonths) VAR PeriodEnd = EDATE(MonthStart,1) RETURN IF(ISBLANK(Cohort) || ISBLANK(OffsetMonths) || MonthStart > DATE(2025,12,1), BLANK(), CALCULATE([Buying Customers], REMOVEFILTERS(DimDate), fact_order[order_date] >= MonthStart, fact_order[order_date] < PeriodEnd))
+
+
+Cohort Retention =
+DIVIDE([Cohort Active Buyers],[Cohort Size])
+
+Header Overview =
+"CUSTOMER 360  /  TỔNG QUAN 2025"
+
+Header Customers =
+"CUSTOMER 360  /  KHÁCH HÀNG & HÀNH ĐỘNG"
+
+Header Sales =
+"CUSTOMER 360  /  BÁN HÀNG & HIỆU QUẢ"
+
+Header Cohort =
+"CUSTOMER 360  /  COHORT & MUA LẠI"
+
+Header Service =
+"CUSTOMER 360  /  DỊCH VỤ KHÁCH HÀNG"
+
+Retention M1 Weighted =
+VAR EligibleCohorts = FILTER(VALUES(Customer360[cohort_month_date]), NOT ISBLANK(Customer360[cohort_month_date]) && Customer360[cohort_month_date] < DATE(2025,12,1))
+VAR Returned = SUMX(EligibleCohorts, CALCULATE([Cohort Active Buyers], REMOVEFILTERS(CohortAge), CohortAge[MonthIndex] = 1))
+VAR Base = SUMX(EligibleCohorts, CALCULATE([Cohort Size], REMOVEFILTERS(DimDate), REMOVEFILTERS(CohortAge)))
+RETURN DIVIDE(Returned, Base)
+
+Cohort Cell =
+
+VAR Age = SELECTEDVALUE(CohortAge[MonthIndex])
+VAR CohortDate = SELECTEDVALUE(Customer360[cohort_month_date])
+VAR Rate = [Cohort Retention]
+RETURN IF(NOT HASONEVALUE(Customer360[cohort_month]) || ISBLANK(CohortDate), BLANK(), IF(Age = 0, FORMAT([Cohort Size], "#,0"), IF(ISBLANK(Rate), BLANK(), FORMAT(Rate,"0.0%"))))
+
+
+
+Cohort Cell Background =
+VAR Age = SELECTEDVALUE(CohortAge[MonthIndex]) VAR R = [Cohort Retention]
+RETURN SWITCH(TRUE(), Age = 0, "#F0E8DA", ISBLANK(R), "#FFFFFF", R < 0.15, "#F1F4F8", R < 0.30, "#DAE4EF", R < 0.45, "#A6BDD2", R < 0.60, "#597FA4", R < 0.75, "#365779", "#192B43")
+
+Cohort Cell Foreground =
+IF(SELECTEDVALUE(CohortAge[MonthIndex]) > 0 && [Cohort Retention] >= 0.45, "#FFFFFF", "#24354B")
+
+CSAT Open =
+CALCULATE(AVERAGE(fact_service_request[satisfaction_score]), fact_service_request[is_valid_temporal] = TRUE(), KEEPFILTERS(fact_service_request[resolution_status] = "Open"))
+
+Margin Gap Color =
+IF([Margin Gap pp] < 0, "#AE4C50", "#24354B")
+
+Branch Target Background =
+IF(NOT ISBLANK([Annual Target Attainment]) && [Annual Target Attainment] < 0.6, "#F8E3E4", "#FFFFFF")
+
+Branch Target Color =
+IF([Annual Target Attainment] < 0.6, "#AE4C50", "#24354B")
+
+Snapshot Customer Share =
+DIVIDE([Snapshot Customers], CALCULATE([Snapshot Customers], REMOVEFILTERS(Customer360[segment])))
+
+Snapshot Revenue Share =
+DIVIDE([Snapshot Revenue Bn], CALCULATE([Snapshot Revenue Bn], REMOVEFILTERS(Customer360[segment])))
+
+Average Monthly Revenue Bn =
+VAR MonthsInYear = CALCULATETABLE(VALUES(DimDate[MonthNumber]), REMOVEFILTERS(DimDate)) RETURN AVERAGEX(MonthsInYear, VAR M = DimDate[MonthNumber] RETURN CALCULATE([Revenue Bn], REMOVEFILTERS(DimDate), DimDate[MonthNumber] = M))
+
+Hai Chau Resolution Days =
+CALCULATE([Avg Resolution Days], KEEPFILTERS(dim_branch[branch_id] = "B005"))
+
+Service Attention Line =
+"CSAT yêu cầu đang mở: " & IF(ISBLANK([CSAT Open]), "—", FORMAT([CSAT Open],"0.00")) & "/5  |  Hải Châu: " & IF(ISBLANK([Hai Chau Resolution Days]), "—", FORMAT([Hai Chau Resolution Days],"0.00")) & " ngày xử lý (đã xử lý)"
